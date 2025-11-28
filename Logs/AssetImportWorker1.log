@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.12f1 (e89d5df0e333) revision 15244637'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19044) 64bit IoTEnterpriseS' Language: 'en' Physical Memory: 32680 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e" at "2025-11-28T20:24:15.7024542Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e" at "2025-11-28T21:28:45.1585136Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-28T20:24:15Z
+Date: 2025-11-28T21:28:45Z
 
 COMMAND LINE ARGUMENTS:
 D:\work\personal\programs\legit\Unity\Hub\Editor\6000.2.12f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/work/slavery/hell_(depi)/escape_room_depi
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52547
+53970
 -licensingIpc
 LicenseClient-acupofj0e
 -job-worker-count
@@ -65,12 +65,12 @@ D:/work/slavery/hell_(depi)/escape_room_depi
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17884]  Target information:
+Player connection [19372]  Target information:
 
-Player connection [17884]  * "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 2256268720 [EditorId] 2256268720 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DRR20F4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19372]  * "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 877140834 [EditorId] 877140834 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DRR20F4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17884] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17884] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19372] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,9 +82,9 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 17.36 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 21.40 ms, found 17 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 3 native plugins for Editor in 17.43 ms.
+Preloading 3 native plugins for Editor in 16.18 ms.
 Initialize engine version: 6000.2.12f1 (e89d5df0e333)
 [Subsystems] Discovering subsystems at path D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/work/slavery/hell_(depi)/escape_room_depi/Assets
@@ -101,64 +101,64 @@ Initialize mono
 Mono path[0] = 'D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001197 seconds.
+Registered in 0.001178 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-acupofj0e"
 [Licensing::IpcConnector] LicenseClient-acupofj0e channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e-6000.2.12" at "2025-11-28T20:24:16.3902643Z"
-- Loaded All Assemblies, in  0.303 seconds
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e-6000.2.12" at "2025-11-28T21:28:45.9295978Z"
+- Loaded All Assemblies, in  0.338 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 620ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 680ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (110ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (127ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+	FinalizeReload (342ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (281ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              e313a4c176e442a8993774dbd8cc93fe
-  Correlation Id:          f718efcc7f7a65df49af3050a2e82bd5
-  External correlation Id: 8502403164965786831
+  Session Id:              6c1ef155e7664dfcb3c7e46730f1a426
+  Correlation Id:          0d5b2a77c072a8d5ff4136454c17b736
+  External correlation Id: 2071399418653076750
   Machine Id:              hwd0nYzpMC54zrTpv0v+9svG1oc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-acupofj0e-6000.2.12" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e-6000.2.12-notifications" at "2025-11-28T20:24:17.0819328Z"
-[Licensing::Module] Licensing Background thread has ended after 1.38s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-acupofj0e-6000.2.12" (connect: 0.00s, validation: 0.00s, handshake: 0.74s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-acupofj0e-6000.2.12-notifications" at "2025-11-28T21:28:46.6801126Z"
+[Licensing::Module] Licensing Background thread has ended after 1.52s
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -171,20 +171,20 @@ Begin MonoManager ReloadAssembly
   Expiration: Unlimited
 Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.036 seconds
+- Loaded All Assemblies, in  1.080 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 8.68 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 8.41 ms, found 17 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 8.38 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 8.36 ms, found 17 plugins.
 Build target directory for AndroidPlayer does not exist!
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -233,46 +233,378 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.423 seconds
-Domain Reload Profiling: 2457ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  1.487 seconds
+Domain Reload Profiling: 2565ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
+		CreateAndSetChildDomain (28ms)
 	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (808ms)
-		LoadAssemblies (380ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (837ms)
+		LoadAssemblies (411ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (514ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (341ms)
-			BuildScriptInfoCaches (126ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1423ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (358ms)
+				TypeCache.ScanAssembly (334ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1488ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1233ms)
+		SetupLoadedEditorAssemblies (1281ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (203ms)
-			ProcessInitializeOnLoadAttributes (740ms)
-			ProcessInitializeOnLoadMethodAttributes (278ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (764ms)
+			ProcessInitializeOnLoadMethodAttributes (295ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 8.86 ms, found 17 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 8.98 ms, found 17 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
 Unloading 68 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13131 unused Assets / (22.9 MB). Loaded Objects now: 13992.
-Memory consumption went from 246.9 MB to 224.1 MB.
-Total: 16.677700 ms (FindLiveObjects: 1.179900 ms CreateObjectMapping: 0.685200 ms MarkObjects: 9.376900 ms  DeleteObjects: 5.433600 ms)
+Unloading 13136 unused Assets / (23.7 MB). Loaded Objects now: 13997.
+Memory consumption went from 246.9 MB to 223.2 MB.
+Total: 17.033500 ms (FindLiveObjects: 1.370700 ms CreateObjectMapping: 0.769500 ms MarkObjects: 8.889900 ms  DeleteObjects: 6.001500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 9407.602018 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes
+  artifactKey: Guid(c3d965b15264f6b43be23a6f7f37b194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Scenes using Guid(c3d965b15264f6b43be23a6f7f37b194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545309a728accaf1149a2fc541c32ee2') in 0.0038645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.044793 seconds.
+  path: Assets/Puzzles/Jigsaw/Material/Block Material 2.mat
+  artifactKey: Guid(22e66287804529947b2faec71a6e9481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Material/Block Material 2.mat using Guid(22e66287804529947b2faec71a6e9481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '298952d20680e5cbd8416d1066759151') in 0.4475367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Puzzles/Jigsaw/Material/Puzzle Material.mat
+  artifactKey: Guid(6941ef7326c142d4bbc039cd34d4dd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Material/Puzzle Material.mat using Guid(6941ef7326c142d4bbc039cd34d4dd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1961525a6ec8063c53b01060b769382') in 0.0070973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.945922 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/0-0.mat
+  artifactKey: Guid(4a86718bc04069d4080a3d75ebc3a142) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/0-0.mat using Guid(4a86718bc04069d4080a3d75ebc3a142) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8e7bdcc66f61a37705fee74019b41cb') in 0.2308521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Piece p0-0.fbx
+  artifactKey: Guid(30eccf792e6856b4ea528e7deb355f34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Piece p0-0.fbx using Guid(30eccf792e6856b4ea528e7deb355f34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aec6ba1333cfa8817f3c3a770c84ace8') in 0.0999371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Textures/1-1.png
+  artifactKey: Guid(41547a9feb9430b4496758edc5cb0eb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Textures/1-1.png using Guid(41547a9feb9430b4496758edc5cb0eb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f036b25a10d24b96d6af72afee6dded8') in 0.0364743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials
+  artifactKey: Guid(f85b98d82c5e58e4299e652c8602e1b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials using Guid(f85b98d82c5e58e4299e652c8602e1b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe6a3979a5dee85e45e9aafadbe2b97e') in 0.0085822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Piece p2-1.fbx
+  artifactKey: Guid(22e78332a2ac9a54ebba6e2e41e05dae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Piece p2-1.fbx using Guid(22e78332a2ac9a54ebba6e2e41e05dae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a62ca898de7629a81b8e86df34b25691') in 0.0218522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Puzzles/Jigsaw/Scripts/Draggable.cs
+  artifactKey: Guid(27c5021c2ad321f4b87c79657073de35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scripts/Draggable.cs using Guid(27c5021c2ad321f4b87c79657073de35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ed8b3a9e2643b497ea492b46c3ab1ad') in 0.0130696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-3_comp_dir.png
+  artifactKey: Guid(b842f05b0595b2a4f8259e6b301a75c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-3_comp_dir.png using Guid(b842f05b0595b2a4f8259e6b301a75c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13601bb86f5b57f493779d88e2ade364') in 0.0258518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_light.exr
+  artifactKey: Guid(cc5a63111049c1f4ca53272be9190c32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_light.exr using Guid(cc5a63111049c1f4ca53272be9190c32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47811a6ad17f7e33fd30035406f440ab') in 0.0162028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-2_comp_dir.png
+  artifactKey: Guid(cefc7a7c67dd61d4b846be6caf30d820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-2_comp_dir.png using Guid(cefc7a7c67dd61d4b846be6caf30d820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8619dcf609b311f1e6b2bc7029775b47') in 0.0157232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes
+  artifactKey: Guid(c3d965b15264f6b43be23a6f7f37b194) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes using Guid(c3d965b15264f6b43be23a6f7f37b194) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f9238507d20a93795c69019df528e22') in 0.016996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Puzzles/Jigsaw/Material/Ground Sand Material.mat
+  artifactKey: Guid(8eb1319a876bd8e45b72fec1962c641c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Material/Ground Sand Material.mat using Guid(8eb1319a876bd8e45b72fec1962c641c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fb2690b4a54e91dcf3a5124797219aa') in 0.0119647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Material
+  artifactKey: Guid(d6187dfbb88ba2a47a39c64f6dca994e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Material using Guid(d6187dfbb88ba2a47a39c64f6dca994e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd5a738db52c0a7a85c768149d844d2a') in 0.0115839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/0-2.mat
+  artifactKey: Guid(fb5e8c36eacf1f64eb3aafe8e0956723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/0-2.mat using Guid(fb5e8c36eacf1f64eb3aafe8e0956723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a083847bf0a7fe450d0f094605816328') in 0.0112531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-3_comp_light.exr
+  artifactKey: Guid(52b6a9833d0f7054b84a26759e91d001) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-3_comp_light.exr using Guid(52b6a9833d0f7054b84a26759e91d001) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3e1b65a52ca532a9f7d11c52f1bc8b5') in 0.0170891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_dir.png
+  artifactKey: Guid(e3d0be6503db0eb4988fef58f73991e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_dir.png using Guid(e3d0be6503db0eb4988fef58f73991e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46d6a54c9c788ca33804e45fb1ec6ae5') in 0.0161294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-1_comp_light.exr
+  artifactKey: Guid(d6e4eecdef53c264dbd2e04c2947394e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-1_comp_light.exr using Guid(d6e4eecdef53c264dbd2e04c2947394e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90191178fd62bb2174c7bfc06683fdb4') in 0.0168728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Textures/bricks.png
+  artifactKey: Guid(78280813708a3884eb9ae8bb7a2a13d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Textures/bricks.png using Guid(78280813708a3884eb9ae8bb7a2a13d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfe3dbe948be7b259731526f96f70370') in 0.0163912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Puzzles/Jigsaw/Scripts
+  artifactKey: Guid(76938c2a26f392146b38566e7e40a157) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scripts using Guid(76938c2a26f392146b38566e7e40a157) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '425376fc84a211b869f570f700d5d8b7') in 0.0102366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Textures/0-0.png
+  artifactKey: Guid(b185e33b987e0f44794b598de7485a00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Textures/0-0.png using Guid(b185e33b987e0f44794b598de7485a00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1650130b7a98d1166ceb82b7b0c8c6a9') in 0.0163699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-0_comp_light.exr
+  artifactKey: Guid(9af0e47a932202f46aad2c52c496cdf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-0_comp_light.exr using Guid(9af0e47a932202f46aad2c52c496cdf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5f995a204673a593934d1af462c2a3e') in 0.0197822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(c0beeb5ddba3dac4ab642f9638d81331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/Lightmap-4_comp_shadowmask.png using Guid(c0beeb5ddba3dac4ab642f9638d81331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b02f593ef5d9eee42ca0f8f1d2d497b5') in 0.0181391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Piece p2-0.fbx
+  artifactKey: Guid(49c923a0984648b43a97108f3897c585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Piece p2-0.fbx using Guid(49c923a0984648b43a97108f3897c585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '736ab1fef52e230bfaa93090d1c16299') in 0.0207188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Textures/1-2.png
+  artifactKey: Guid(a3af4f357ffa45c41b1078d2273392ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Textures/1-2.png using Guid(a3af4f357ffa45c41b1078d2273392ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a4fa1d7db4d2438f37d33d32a602f68') in 0.0165381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Puzzles/Jigsaw
+  artifactKey: Guid(7f3502934c3f37148b1887beb49586c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw using Guid(7f3502934c3f37148b1887beb49586c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7565396b253094e5c3ecb4be9881a390') in 0.0093823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Pyramid.fbx
+  artifactKey: Guid(c622ed4d74e620b46be1c47e61a89b15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Pyramid.fbx using Guid(c622ed4d74e620b46be1c47e61a89b15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0582aaf98fa972427a83a73dcfa64713') in 0.0194207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Piece p0-1.fbx
+  artifactKey: Guid(c8bac7db843c33c45ae60c3b72369811) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Piece p0-1.fbx using Guid(c8bac7db843c33c45ae60c3b72369811) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '619721b96dcf98142648affafe36a163') in 0.0196889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/LightingData.asset
+  artifactKey: Guid(4a80938af39d80b41868562e0c6176bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/LightingData.asset using Guid(4a80938af39d80b41868562e0c6176bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a70784769903211eb3c72af6a257943') in 0.0570939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/1-0.mat
+  artifactKey: Guid(c898942e5d40a224dbfa42cf37b0aeda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/1-0.mat using Guid(c898942e5d40a224dbfa42cf37b0aeda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d73130a33d6836aa7aab0d24a56f50b') in 0.0100643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Textures/0-2.png
+  artifactKey: Guid(a55ad9763195296428c28a539d04542b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Textures/0-2.png using Guid(a55ad9763195296428c28a539d04542b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bf6b652fb2a0817c1b2ec4d8ba7ee13') in 0.0157648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Puzzles/Jigsaw/Scenes/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(46781a6e4a0a9204abd730446fc9ed42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Scenes/Game/ReflectionProbe-0.exr using Guid(46781a6e4a0a9204abd730446fc9ed42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '481a62717f64461b8b05d36271415042') in 0.0152718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.135177 seconds.
+  path: Assets/Puzzles/Jigsaw/Material/Block Material 2.mat
+  artifactKey: Guid(22e66287804529947b2faec71a6e9481) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Material/Block Material 2.mat using Guid(22e66287804529947b2faec71a6e9481) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea79e52ec1f10f5b665485790ef8d85') in 0.0180165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.527324 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Piece p1-0.fbx
+  artifactKey: Guid(d081ee2134467014eb31dba0ba66b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Models/Piece p1-0.fbx using Guid(d081ee2134467014eb31dba0ba66b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b358d4ac64512ab6e6206901e02c4314') in 0.0530128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Sand Dune.fbx
+  artifactKey: Guid(a82ef3262bec6914e81b180a1afe56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Models/Sand Dune.fbx using Guid(a82ef3262bec6914e81b180a1afe56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef9fc2115fb1e36dede7a6035a495df6') in 0.0166036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.937558 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/0-2.mat
+  artifactKey: Guid(fb5e8c36eacf1f64eb3aafe8e0956723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/0-2.mat using Guid(fb5e8c36eacf1f64eb3aafe8e0956723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62c503962a1660aabac0275f75237e88') in 0.014494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/sand - seamless.mat
+  artifactKey: Guid(7c5e0c91708985d4f8335fad928d288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/sand - seamless.mat using Guid(7c5e0c91708985d4f8335fad928d288b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f06cbf22a753962ad7fb7b73ad01e32') in 0.0068906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.551521 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/1-1.mat
+  artifactKey: Guid(6eff5f63524f34f4e9c6cd2828fd2982) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/1-1.mat using Guid(6eff5f63524f34f4e9c6cd2828fd2982) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6531474c47d306f3bdeb517b327c1f7c') in 0.0146756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/bricks.mat
+  artifactKey: Guid(92592ee067ed2ae48b330a829825378f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/bricks.mat using Guid(92592ee067ed2ae48b330a829825378f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd31dea2f30d57aace77cc3946ff4f2b') in 0.0153814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Puzzles/Jigsaw/Models/Materials/Piece Background Material.mat
+  artifactKey: Guid(4c6b5976c93c68c40abc5a43db43cc7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Puzzles/Jigsaw/Models/Materials/Piece Background Material.mat using Guid(4c6b5976c93c68c40abc5a43db43cc7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88ff727ac77c45c0eb1d2e2f7538d748') in 0.0131334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

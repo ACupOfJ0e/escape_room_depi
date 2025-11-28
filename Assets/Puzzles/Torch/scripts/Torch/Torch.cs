@@ -10,6 +10,9 @@ public class Torch : MonoBehaviour
     [Tooltip("The renderer for the part of the torch that should change color (e.g., the flame).")]
     [SerializeField] private Renderer torchRenderer;
 
+    [Tooltip("The light component that should match the torch's color.")]
+    [SerializeField] private Light torchLight;
+
     private bool isHeld = false;
     private MaterialPropertyBlock propBlock;
     private Rigidbody rb;
@@ -20,6 +23,12 @@ public class Torch : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         torchCollider = GetComponent<Collider>();
         propBlock = new MaterialPropertyBlock(); // Initialize the property block once.
+
+        if (torchLight == null)
+        {
+            torchLight = GetComponentInChildren<Light>();
+        }
+
         UpdateTorchVisualColor();
     }
 
@@ -32,7 +41,12 @@ public class Torch : MonoBehaviour
         if (rb == null) rb = GetComponent<Rigidbody>();
         if (torchCollider == null) torchCollider = GetComponent<Collider>();
         if (propBlock == null) propBlock = new MaterialPropertyBlock();
-        UpdateTorchVisualColor();
+
+        //
+        if (torchRenderer != null)
+        {
+            UpdateTorchVisualColor();
+        }
     }
 
     public void OnPickup()
@@ -103,34 +117,48 @@ public class Torch : MonoBehaviour
             }
         }
 
+        Color color = GetColorFromEnum(torchColor);
+
         // For runtime, MaterialPropertyBlock is the most performant way to change color.
         if (Application.isPlaying)
         {
             // Get the current value of the property block to avoid overwriting other properties.
             torchRenderer.GetPropertyBlock(propBlock);
-            propBlock.SetColor("_Color", GetColorFromEnum(torchColor));
+            propBlock.SetColor("_Color", color);
             torchRenderer.SetPropertyBlock(propBlock);
         }
         else // For editor updates, we need to modify the material directly.
         {
+            if (torchRenderer.sharedMaterial == null)
+            {
+                Debug.LogWarning($"Torch '{gameObject.name}' is missing a shared material. Cannot set color.", this);
+                return;
+            }
             // Accessing .material creates a new material instance if one doesn't exist for this renderer.
             // This prevents changing the shared material asset and affecting all prefabs.
             // Unity handles the cleanup of these instances automatically in the editor.
-            torchRenderer.material.color = GetColorFromEnum(torchColor);
+            torchRenderer.sharedMaterial.color = color;
+        }
+
+        if (torchLight != null)
+        {
+            torchLight.color = color;
         }
     }
 
     private Color GetColorFromEnum(TorchColor colorEnum)
     {
+        float intensity = 2f; // Adjust this value (2-5 works well for glowing effects)
+
         switch (colorEnum)
         {
-            case TorchColor.Red: return Color.red;
-            case TorchColor.Green: return Color.green;
-            case TorchColor.Blue: return Color.blue;
-            case TorchColor.Yellow: return Color.yellow;
-            case TorchColor.Purple: return new Color(0.5f, 0, 0.5f); // Magenta is often too bright
-            case TorchColor.White: return Color.white;
-            default: return Color.gray; // For None or unhandled
+            case TorchColor.Red: return Color.red * intensity;
+            case TorchColor.Green: return Color.green * intensity;
+            case TorchColor.Blue: return Color.blue * intensity;
+            case TorchColor.Yellow: return Color.yellow * intensity;
+            case TorchColor.Purple: return new Color(0.5f, 0, 0.5f) * intensity;
+            case TorchColor.White: return Color.white * intensity;
+            default: return Color.gray * intensity;
         }
     }
 }
