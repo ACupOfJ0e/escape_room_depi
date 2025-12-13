@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\tablethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\tablethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\slothandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\slothandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|e:\\myprojects\\unity_projects\\escape room pro\\escape room pro (1)\\assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\room3_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\room3_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\platevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\platevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\shihab scripts\\room1_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\room1_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\shihab scripts\\pyramidslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\pyramidslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\shihab scripts\\pyramid1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\pyramid1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\masshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\masshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80874C7E-4F96-42F5-850C-18BA468F200F}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Room3_Manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:58:08.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "slotHandler.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\slotHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\slotHandler.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\slotHandler.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\slotHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:47:43.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tabletHandler.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\tabletHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\tabletHandler.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\tabletHandler.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\tabletHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T19:15:32.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "plateVisual.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plateVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plateVisual.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plateVisual.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plateVisual.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:26:55.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "plate_logic.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\plate_logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:47:31.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jigsaw_manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:18:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MassHandler.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\MassHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\MassHandler.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\MassHandler.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\MassHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:47:29.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "pyramid1.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:14:19.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "room1_Manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\room1_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\room1_Manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\room1_Manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\room1_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:32:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pyramidSlot.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\pyramidSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\pyramidSlot.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\Escape Room pro (1)\\Assets\\ShihabParts\\shihab scripts\\pyramidSlot.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\pyramidSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:28:56.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

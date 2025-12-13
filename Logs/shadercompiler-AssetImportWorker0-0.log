@@ -1,4 +1,42 @@
-Base path: 'D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data', plugins path 'D:/work/personal/programs/legit/Unity/Hub/Editor/6000.2.12f1/Editor/Data/PlaybackEngines'
+Base path: 'E:/tools/Unity-editor/6000.2.15f1/Editor/Data', plugins path 'E:/tools/Unity-editor/6000.2.15f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
+Cmd: initializeCompiler
+
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)

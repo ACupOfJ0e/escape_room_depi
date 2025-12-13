@@ -4,12 +4,41 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ball
+  - left
+  - right
+  - head
+  - QDSUISection
+  - QDSUIAccentColor
+  - QDSUISecondaryButton
+  - QDSUIPrimaryButton
+  - QDSUITextSecondaryInvertedColor
+  - QDSUITextInvertedColor
+  - QDSUIToggleButton
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - QDSUIDestructiveButton
+  - QDSUISharedThemeColor
+  - QDSUIBorderlessButton
+  - QDSUIToggleBorderlessButton
+  - QDSUIBackplateGradient
+  - QDSUITooltip
+  - QDSUIToggleSwitch
+  - Locomotion
+  - LocoButton
+  - LocoText
+  - PassThroughButton
+  - PassThrough
+  - QDSUITextInputField
+  - SamplesInfoPanel
+  - QDSUIToggleCheckboxRadio
+  - pyramidToken
+  - weight_object
+  - Tablet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Overlay UI
+  - 
   - Water
   - UI
   - 
