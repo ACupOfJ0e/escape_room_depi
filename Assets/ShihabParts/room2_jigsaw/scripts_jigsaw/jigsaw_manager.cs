@@ -4,6 +4,7 @@ public class jigsaw_manager : MonoBehaviour
 {
     [SerializeField] private MassHandler massHandler_left;
     [SerializeField] private MassHandler massHandler_right;
+    public GameObject thirdRoom;
 
     [SerializeField] private GameObject keyStone;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,6 +26,8 @@ public class jigsaw_manager : MonoBehaviour
         {
             keyStone.SetActive(true);
             Debug.Log("Both sides have enough mass. Jigsaw puzzle solved!");
+            keyplaceariser key = thirdRoom.GetComponent<keyplaceariser>();
+            StartCoroutine(key.arise());
             // Add further logic here for when the puzzle is solved
         }
         else

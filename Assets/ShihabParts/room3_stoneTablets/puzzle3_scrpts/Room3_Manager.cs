@@ -4,6 +4,7 @@ public class Room3_Manager : MonoBehaviour
 {
     [SerializeField] private slotHandler[] slots;
     [SerializeField] private GameObject keyStone;
+    public GameObject secondRoom;
 
     void Start()
     {
@@ -34,6 +35,8 @@ public class Room3_Manager : MonoBehaviour
         if (allFilled)
         {
             PuzzleSolved();
+            keyplaceariser key = secondRoom.GetComponent<keyplaceariser>();
+            StartCoroutine(key.arise());
         }
     }
 

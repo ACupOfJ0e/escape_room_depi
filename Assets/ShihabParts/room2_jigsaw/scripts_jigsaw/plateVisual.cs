@@ -8,7 +8,7 @@ public class plateVisual : MonoBehaviour
     private bool canMove = false;
     private Vector3 targetPosition;
     private float moveSpeed = 0.02f;
-    private Vector3 offsetVector = new Vector3(0f, -0.1f, 0f);
+    private Vector3 offsetVector = new Vector3(0f, -0.05f, 0f);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,7 +36,7 @@ public class plateVisual : MonoBehaviour
             float plateMass = massHandler_plate.GetCurrentMass();
             if (plateMass >= 5f)
             {
-                targetPosition = initialPosition + offsetVector + offsetVector;
+                targetPosition = initialPosition + offsetVector+offsetVector;
                 Debug.Log("Plate has enough mass.");
                 // Add further logic here for when the plate has enough mass
             }

@@ -1,5 +1,5 @@
 
-=== Mon Dec  8 16:33:09 2025
+=== Sat Dec 20 23:19:25 2025
 
 Packages were changed.
 Update Mode: resetToDefaultDependencies
@@ -38,11 +38,3 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.modules.accessibility@1.0.0
   com.unity.multiplayer.center@1.0.0
-
-=== Tue Dec  9 11:42:05 2025
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.inputsystem from version 1.14.2 to 1.16.0

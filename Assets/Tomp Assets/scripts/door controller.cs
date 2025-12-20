@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using static UnityEngine.GraphicsBuffer;
 
 public class doorcontroller : MonoBehaviour
@@ -10,10 +11,20 @@ public class doorcontroller : MonoBehaviour
     private float closingy = 1.574847f;
     public float durationx = 2f;
     public float durationy = 10f;
+    public float length = 0f;
+    public AudioClip doorSoundClose;
+    public AudioClip doorSoundOpen;
+    private bool start=true;
+
+
+    private AudioSource source;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        source = gameObject.AddComponent<AudioSource>();
+        source.volume = 0.5f;
+        source.spatialBlend = 1f;
         StartCoroutine(OpenDoor());
         
 
@@ -31,11 +42,17 @@ public class doorcontroller : MonoBehaviour
         // Use LOCAL position since we're a child object
         Vector3 startLocalPos = transform.localPosition;
         Vector3 endLocalPos = new Vector3(openingx, startLocalPos.y, startLocalPos.z);
-
+        
         float elapsed = 0f;
-
+        if (start)
+        {
+            yield return new WaitForSeconds(length);
+            start=false;
+        }
+        source.PlayOneShot(doorSoundOpen);
         while (elapsed < durationx)
         {
+            
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / durationx);
 
@@ -64,6 +81,7 @@ public class doorcontroller : MonoBehaviour
     }
     public IEnumerator CloseDoor()
     {
+        source.PlayOneShot(doorSoundClose);
         // Use LOCAL position since we're a child object
         Vector3 startLocalPos = transform.localPosition;
 

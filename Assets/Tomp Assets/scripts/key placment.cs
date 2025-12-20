@@ -57,6 +57,8 @@ public class keyplacment : MonoBehaviour
         if(keyParts == 3)
         {
             StartCoroutine(OpenDoor());
+            AudioSource source = main_door.GetComponent<AudioSource>();
+            source.Play();
         }
     }
     public IEnumerator OpenDoor()
