@@ -1,0 +1,1987 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.15f1 (0707b6d1e918) revision 460726'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32559 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Compuomart" at "2025-12-22T19:23:09.3429024Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-22T19:23:09Z
+
+COMMAND LINE ARGUMENTS:
+E:\tools\Unity-editor\6000.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/MyProjects/Unity_Projects/Escape Room pro/escape_room_depi
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63156
+-licensingIpc
+LicenseClient-Compuomart
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/MyProjects/Unity_Projects/Escape Room pro/escape_room_depi
+E:/MyProjects/Unity_Projects/Escape Room pro/escape_room_depi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36888]  Target information:
+
+Player connection [36888]  * "[IP] 192.168.40.1 [Port] 0 [Flags] 2 [Guid] 890440499 [EditorId] 890440499 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-INOIHPV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36888]  * "[IP] 192.168.75.1 [Port] 0 [Flags] 2 [Guid] 890440499 [EditorId] 890440499 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-INOIHPV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36888]  * "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 890440499 [EditorId] 890440499 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-INOIHPV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36888] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36888] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 271.05 ms, found 17 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 2.22 ms.
+Initialize engine version: 6000.2.15f1 (0707b6d1e918)
+[Subsystems] Discovering subsystems at path E:/tools/Unity-editor/6000.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/MyProjects/Unity_Projects/Escape Room pro/escape_room_depi/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6603
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              97d3f0d98aa241f99387d2d14df39162
+  Correlation Id:          214d8ecbf2c05bcc63ee49b6cf4d4854
+  External correlation Id: 16323652398009422
+  Machine Id:              3KfzeB2xIpe6WxQyZRYSQ203QzE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Compuomart" (connect: 0.00s, validation: 0.00s, handshake: 16.82s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Compuomart-notifications" at "2025-12-22T19:23:26.1603039Z"
+[Licensing::Module] Licensing Background thread has ended after 16.82s
+Initialize mono
+Mono path[0] = 'E:/tools/Unity-editor/6000.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'E:/tools/Unity-editor/6000.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/tools/Unity-editor/6000.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/tools/Unity-editor/6000.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 11270228173407-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: E:/tools/Unity-editor/6000.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004946 seconds.
+- Loaded All Assemblies, in  0.444 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 291 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (779ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (406ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.270 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.99 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 12.53 ms, found 17 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.805 seconds
+Domain Reload Profiling: 7073ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (981ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (365ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (5805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2034ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (1624ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.96 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10540 unused Assets / (6.8 MB). Loaded Objects now: 11346.
+Memory consumption went from 189.9 MB to 183.1 MB.
+Total: 28.938600 ms (FindLiveObjects: 1.354500 ms CreateObjectMapping: 1.487700 ms MarkObjects: 21.825200 ms  DeleteObjects: 4.269200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40565.344817 seconds.
+  path: Assets/SkySeries Freebie
+  artifactKey: Guid(fb0bc4e2321962043941a273bd7549fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie using Guid(fb0bc4e2321962043941a273bd7549fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f19c8e878a560f35abec0782d22e1514') in 0.0553856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.660217 seconds.
+  path: Assets/ShihabParts/room2_jigsaw/scripts_jigsaw/jigsaw_manager.cs
+  artifactKey: Guid(aeb6468eeb7f1a24c9784307530a6aa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/room2_jigsaw/scripts_jigsaw/jigsaw_manager.cs using Guid(aeb6468eeb7f1a24c9784307530a6aa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9002b03881574d4b40730ae233b6537c') in 0.1031932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ShihabParts/shihab scripts/Updated/pyramidSlot.cs
+  artifactKey: Guid(8c5ac8f97fd22ae47aef44143228deb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/shihab scripts/Updated/pyramidSlot.cs using Guid(8c5ac8f97fd22ae47aef44143228deb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73414b33ecb754b9be4a2dc64d3cf361') in 0.0065366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ShihabParts/shihab scripts/itemsRestorer.cs
+  artifactKey: Guid(f869b262355520d46a06b9832a1dbe4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/shihab scripts/itemsRestorer.cs using Guid(f869b262355520d46a06b9832a1dbe4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c820e6f0b3ce6b12fdb60c161f44ad6') in 0.0063389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr
+  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c041f2645f8b05992e083d600d296a9') in 0.1217031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity
+  artifactKey: Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/UnderTheSea.unity using Guid(36dce1c4ecf83f74392c8361f42e87e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ab7812662eb5c80ce29f57d2be2b6c2') in 0.0070307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
+  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24827cadfe4da600f428e8894e82ef58') in 0.0495513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/Daylightfreebiedemo.unity
+  artifactKey: Guid(aa96a8c1d168fcb4ea92cd8558fe7a46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/Daylightfreebiedemo.unity using Guid(aa96a8c1d168fcb4ea92cd8558fe7a46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e7ff18f37db0078f22ddf27ce2bfda0') in 0.0061115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri
+  artifactKey: Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri using Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4dcc5c7df243b48cbdfb286ef214090') in 0.0050828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ShihabParts/shihab scripts/Updated/pyramid1.cs
+  artifactKey: Guid(33fce9aa629fd7347b1f5bb6cf8f2e85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/shihab scripts/Updated/pyramid1.cs using Guid(33fce9aa629fd7347b1f5bb6cf8f2e85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b6ae16d9f77cf3be5cc0aab239a5d76') in 0.0055417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04c8a25b045a1af695e7c34a640d6a80') in 0.0365775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e718c8c00af01e0f30b43fbdb0c90378') in 0.0341335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '926f6e3db62fba6a1be5bcacf837edba') in 0.0348723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity
+  artifactKey: Guid(acc44db00cf3703479df04ea90bad261) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/UnEarthlyRed.unity using Guid(acc44db00cf3703479df04ea90bad261) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd90462ead87c64b897b3cfdc31f8ab56') in 0.0062684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a52f721501507ab2420ba1f0eac8af8') in 0.0428701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba367409d715c6ea1d65f8a18c4c8c32') in 0.0194776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
+  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25b9cb083d2c24fc34bf207199f4d256') in 0.1713611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr
+  artifactKey: Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunTop.hdr using Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c012c5aac33c57090ae9cf26b9e1b52') in 0.0105767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tomp Assets/water/texture/short.renderTexture
+  artifactKey: Guid(8fffd317eef2f5d4f8e90ab7acf5ed17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tomp Assets/water/texture/short.renderTexture using Guid(8fffd317eef2f5d4f8e90ab7acf5ed17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b593d3ef6268873591b4b0ee4e4970af') in 0.0158071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr
+  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '815d2df430911d22782da9c1aabec830') in 0.0379407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr
+  artifactKey: Guid(1153dc89e66880c4eb7adc16ba588855) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr using Guid(1153dc89e66880c4eb7adc16ba588855) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '403822d8634f000ba3857d05f44d3048') in 0.0406335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity
+  artifactKey: Guid(73547a7486fb43f45b68fed50e680e64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SunlessFreebieDemo.unity using Guid(73547a7486fb43f45b68fed50e680e64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b63dc4e2957aaef5c051cbda1b16823') in 0.0094449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity
+  artifactKey: Guid(745822b12dae28c44b79ddd800e253e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/CasualDay.unity using Guid(745822b12dae28c44b79ddd800e253e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28c5fd4b64d355c21a222b2b0f9992f6') in 0.005491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02b09be1eecf9802c77900f9f5fd992f') in 0.0335814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat
+  artifactKey: Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/Full.mat using Guid(1b27a20a436b4c64b882a6f739bf91de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '688fbfd5321c3e3e91e96614691787eb') in 0.0097088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/HighFantasy.mat
+  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '348b269a631ac41b694fc9902f19edbb') in 0.0289389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SkySeries Freebie/SkyhighFluffycloudField.mat
+  artifactKey: Guid(f15c336556dd74f40aaca655f7767970) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/SkyhighFluffycloudField.mat using Guid(f15c336556dd74f40aaca655f7767970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffdc915cd57026777400e458f723262f') in 0.0279454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SkySeries Freebie/FluffballDay.mat
+  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '526d22de2a013378f4fc54e907924f64') in 0.0282183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/CasualDay.mat
+  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b9edaa54bf15b6304394440e26873a8') in 0.026915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity
+  artifactKey: Guid(b803de4d65984fd4b83f3b24d963118f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/PlanetaryFreebie.unity using Guid(b803de4d65984fd4b83f3b24d963118f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5a906e5839f305f54b43622c4278560') in 0.0065299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ShihabParts/ShihabPrefabs/room_Manager.prefab
+  artifactKey: Guid(2eae0fb09b5bab74b8e5405d9f17ce19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabPrefabs/room_Manager.prefab using Guid(2eae0fb09b5bab74b8e5405d9f17ce19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd49c2de6f7e15392ff288703b59ed1') in 0.0916466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccbde1f6a554832148a7e01b15572ce4') in 0.2541909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88337af74923c9bedd3bd05c6a7c332b') in 0.0185466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr
+  artifactKey: Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr using Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2da11740d1405bf14ad28e6a54224525') in 0.0355689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.230876 seconds.
+  path: Assets/SkySeries Freebie/AmbienceExposure.mat
+  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0486005d50a185a6aa258c29608768b4') in 1.3379994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.153919 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr
+  artifactKey: Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CasualDay4K.hdr using Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b619b9412f43b4dd1ae538eec51fcf2c') in 0.0606614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cda361d481f1b9a529ad281ff0aa2fd') in 0.0490935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.923844 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri
+  artifactKey: Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri using Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e48624851b3e13bf8c4f211aac25f3df') in 0.0008957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd74b4bee7f95c4f5d81438484bf98a7c') in 0.0168727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c375e9921ecf5f4edf39a36b36df05b1') in 0.0167201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccf1e6138b30df71d8852a19848bf245') in 0.0137351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '823d8332e3e4f7f0035a093f36779953') in 0.0225047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c7f06e5843418dd263ea8d4c62f7d0') in 0.0126909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '978f82047b45ea0764e40405ad5e481e') in 0.032654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.795139 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr
+  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a491151984d63edc0954c8681b3d25') in 0.0456579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.567064 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects
+  artifactKey: Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects using Guid(4f34c5940141eff4e82f4c8bfdf6e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4fb157fa28f13c4085aa20b6c77bb4d') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006739 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
+  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3cdb166643082e5af4cf56857054d34') in 0.0107451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
+  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c111e76320ff5b6505a053370507da04') in 0.0316786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.658511 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
+  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eafc4fdedb8e772ba0b579cd2501c2e') in 0.0155031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854431 seconds.
+  path: Assets/SkySeries Freebie/skybox1.mat
+  artifactKey: Guid(46fd42ec141f416448e3e585f904a9a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/skybox1.mat using Guid(46fd42ec141f416448e3e585f904a9a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eff67997710b3cfdd690efa09727086c') in 0.0059532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.847997 seconds.
+  path: Assets/SkySeries Freebie/skybox1.mat
+  artifactKey: Guid(46fd42ec141f416448e3e585f904a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/skybox1.mat using Guid(46fd42ec141f416448e3e585f904a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '821521acdccb876cba9ab677dca6edb3') in 0.0082335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.609630 seconds.
+  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
+  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c6590e6eeabcd5c1529026abbb8092b') in 0.0068144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.262143 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx
+  artifactKey: Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx using Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43261d2c0728965531ad841417e9e4bd') in 0.5758701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.296955 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx
+  artifactKey: Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx using Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bec1eafa597db922086ae48e7b2d566c') in 0.1185218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 173
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.607194 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx
+  artifactKey: Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx using Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f3bd253cd9c7b2f224b223a0f331f84') in 0.0456564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877938 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx
+  artifactKey: Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx using Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcea08cc47693091f41b89eaa62c722a') in 0.047786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231596 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx
+  artifactKey: Guid(024211350f232574d91c5f7895d55712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx using Guid(024211350f232574d91c5f7895d55712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0449bad23d18a184355ada93463ff7e7') in 0.0510631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793815 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx
+  artifactKey: Guid(024211350f232574d91c5f7895d55712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx using Guid(024211350f232574d91c5f7895d55712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4dcd637635960201226bcadc5c37ab0') in 0.0212638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.339525 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures
+  artifactKey: Guid(28be96d54db6b4244b92f2d2cc075033) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures using Guid(28be96d54db6b4244b92f2d2cc075033) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f7cd2d2b9fe35165e713e6339b1235') in 0.0048869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.863240 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone01.jpeg
+  artifactKey: Guid(9276513bec1ef4b4bb39c6bed14911b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone01.jpeg using Guid(9276513bec1ef4b4bb39c6bed14911b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f72ed527ce74fc594dbc87300b6eed0') in 0.0165369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(420d07cfea129dd41b9b715bc85f13ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/internal_ground_ao_texture.jpeg using Guid(420d07cfea129dd41b9b715bc85f13ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665f2fd43335c65132c32195d4c26bd1') in 0.0112937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789833 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone01.jpeg
+  artifactKey: Guid(9276513bec1ef4b4bb39c6bed14911b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone01.jpeg using Guid(9276513bec1ef4b4bb39c6bed14911b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9c2abd8cb2d3279dca3be85c04545ed') in 0.018557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone02.jpeg
+  artifactKey: Guid(3f9f93f36cbee7c439ce6903f1e97998) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/DO_EgyptianRuins1_Sandstone02.jpeg using Guid(3f9f93f36cbee7c439ce6903f1e97998) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '762f9772bf06cc72c12005c150096320') in 0.0177687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1511.588245 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat
+  artifactKey: Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat using Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb22b39a5e107ae170e3f6f95c7396c3') in 0.0118318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.889203 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat
+  artifactKey: Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat using Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4cbf7ae898cf6ca2436dab93bf42798') in 0.0070567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.029159 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures
+  artifactKey: Guid(28be96d54db6b4244b92f2d2cc075033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures using Guid(28be96d54db6b4244b92f2d2cc075033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fedaacee8c4d6d1e0e38ec9e6b66e2b1') in 0.0007456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.104074 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat
+  artifactKey: Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-1.mat using Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f50eed817a193513a373ada4b41c2c9b') in 0.0157756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.872313 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-2.mat
+  artifactKey: Guid(26abee33a006d95418b7e0b6af04d781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-2.mat using Guid(26abee33a006d95418b7e0b6af04d781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94454d18c0ee7ddccce27513be7e2bcd') in 0.0068365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.744875 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-2.mat
+  artifactKey: Guid(26abee33a006d95418b7e0b6af04d781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-2.mat using Guid(26abee33a006d95418b7e0b6af04d781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6bbc0d9cc9714d50170afed90d7294') in 0.0140748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668288 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat
+  artifactKey: Guid(32dc0a445a0e6f148904fa031c694820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat using Guid(32dc0a445a0e6f148904fa031c694820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '058597a2ae16bce01f66a6fdaf8a4ec1') in 0.0081673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.377063 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat
+  artifactKey: Guid(32dc0a445a0e6f148904fa031c694820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat using Guid(32dc0a445a0e6f148904fa031c694820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f437ac4746ff0a7389ee9cb5950abb19') in 0.0176692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778178 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat
+  artifactKey: Guid(32dc0a445a0e6f148904fa031c694820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/ruins1-textures/ruinsMat-3.mat using Guid(32dc0a445a0e6f148904fa031c694820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2075f7c3d06e6df7a599d444ff0b5e3') in 0.0103785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.365454 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/ruinsMat-2.mat
+  artifactKey: Guid(26abee33a006d95418b7e0b6af04d781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/ruinsMat-2.mat using Guid(26abee33a006d95418b7e0b6af04d781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b75b98baf93d0c996b6b3ed76a33304') in 0.0082681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/ruinsMat-1.mat
+  artifactKey: Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/ruinsMat-1.mat using Guid(b3c348ce24ee20444bf32064c5b8242f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c666705f2c95534d1a52a7334249ff9a') in 0.0094137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.414134 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/Puzzle1_Hint.mat
+  artifactKey: Guid(644f471f4c6f8bf4ba9b87ed39fee84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Materials/Puzzle1_Hint.mat using Guid(644f471f4c6f8bf4ba9b87ed39fee84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6b1d4e3beda07fe7c786fca4919c028') in 0.0113268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.622818 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx
+  artifactKey: Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-1.fbx using Guid(0f3371a26687bdd4b94bac10ac89765d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37010f872e20af51e91601074e14f50') in 0.4437832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 175
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.935384 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f0a4cb4dbda9cfde0e968cb57632aed') in 0.0082021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.268707 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture
+  artifactKey: Guid(aa3a8cbd8b040c948bcc389e83280b1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture using Guid(aa3a8cbd8b040c948bcc389e83280b1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d41aac1c282a11565eb5bac9a3a7e2b') in 0.0051367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.320533 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone01.jpg
+  artifactKey: Guid(f36574d8b7f5dd04d9d22c98d2791df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone01.jpg using Guid(f36574d8b7f5dd04d9d22c98d2791df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0a5c98e1b4290e46968faabb188b4f') in 0.0144438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone03.jpg
+  artifactKey: Guid(c801acd380feed14d932dfa0cae873b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone03.jpg using Guid(c801acd380feed14d932dfa0cae873b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0716c05c51352e4182ec2013800f26a') in 0.0356593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795899 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone01.jpg
+  artifactKey: Guid(f36574d8b7f5dd04d9d22c98d2791df1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone01.jpg using Guid(f36574d8b7f5dd04d9d22c98d2791df1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86abeedee0d811c715e5bbe5c3e35913') in 0.0171262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone02.jpg
+  artifactKey: Guid(ffebe993eb638cc429fff595c84f134e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/DO_EgyptianMonuments1_Sandstone02.jpg using Guid(ffebe993eb638cc429fff595c84f134e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fc42b67f2e78dd0d50f81edbe5f9c80') in 0.0147278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.473205 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat
+  artifactKey: Guid(d040fce838ed8194db8eaede95feb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat using Guid(d040fce838ed8194db8eaede95feb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1523603c14b5536a57ccce1455d5ef55') in 0.0135618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.856743 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat
+  artifactKey: Guid(d040fce838ed8194db8eaede95feb081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat using Guid(d040fce838ed8194db8eaede95feb081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cb9c440ec328f7c8361b33f2cf8dbd0') in 0.0059237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.416728 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture
+  artifactKey: Guid(aa3a8cbd8b040c948bcc389e83280b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture using Guid(aa3a8cbd8b040c948bcc389e83280b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b983f688d5f7b43243e3f8c7d1951ed7') in 0.0011432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.077167 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat
+  artifactKey: Guid(d040fce838ed8194db8eaede95feb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-1.mat using Guid(d040fce838ed8194db8eaede95feb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f94bb922a84a2290d40167507fb43832') in 0.0168168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860240 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-2.mat
+  artifactKey: Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-2.mat using Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f54c1f36baf9e6f9bdc8308fa6c9e5a5') in 0.0066766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.893192 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-2.mat
+  artifactKey: Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-2.mat using Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa8ce1720764618b2b14ab1d41ca8c1a') in 0.0132052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.847578 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat
+  artifactKey: Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat using Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15772c518236f8a09111f5845d676eda') in 0.0070054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.490935 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat
+  artifactKey: Guid(fdb9ba81a4a4ef640976209492475efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat using Guid(fdb9ba81a4a4ef640976209492475efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f669b1c3d74af209b15cd4d2f9ef462') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869305 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat
+  artifactKey: Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/Obliesk-texture/OblieskMat-3.mat using Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ecf1258dacba99c3591b5fa3f4e27dc') in 0.007994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.370796 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx
+  artifactKey: Guid(024211350f232574d91c5f7895d55712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk2.fbx using Guid(024211350f232574d91c5f7895d55712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7450dc331688d8823c39a44666742700') in 0.0414108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.699033 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/OblieskMat-3.mat
+  artifactKey: Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/OblieskMat-3.mat using Guid(fdb9ba81a4a4ef640976209492475efd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6ec85a17e12395f94baf77eadd40e48') in 0.0100982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/OblieskMat-2.mat
+  artifactKey: Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/OblieskMat-2.mat using Guid(5b8d11ed26506de4eb376014d13adbb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf6f9507ee4717a84d0b1faef318dee2') in 0.0100046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.933456 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx
+  artifactKey: Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx using Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8274f8425936e2824eefc522a75939') in 0.0694492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.318228 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx
+  artifactKey: Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1.fbx using Guid(c2027c114a2244a48b06be5fe1b420f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c41a3924eb1a529cc53b8796fccd0004') in 0.0271188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.706263 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx
+  artifactKey: Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx using Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '471e2776eeb79e7228ee29ca2bd09b3f') in 0.0553042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772688 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx
+  artifactKey: Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx using Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '210a738e9027ba94120ddfd0b5a00984') in 0.045697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.438676 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx
+  artifactKey: Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx using Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957adf4c042d5d2e75f5a6c13fc2847b') in 0.0435631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.126952 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx
+  artifactKey: Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/ruins-2.fbx using Guid(0aef7b4eac51abd4c8720e88bd3ebefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '640d2e410d4169e6f0890c430b7ca285') in 0.0272052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.678851 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0b9a2507b4cb534bc5e3a69a8cf6c58') in 0.0089853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.017638 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '729faa8aef2c9cf82045c87fee9d15ff') in 0.0091061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.983430 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b24e076a66cec1a79d9d4179fa9aa94d') in 0.0103177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.472067 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2974b6ba37fe754d85d748ec00b093b5') in 0.0090018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.966594 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f136285873fa7ed6762c13b66e1229a') in 0.0081808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.834720 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b64cdd4d03fb76d71f04c1d271d1899') in 0.0195398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.750979 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b118935b85a3b312fa77134f6ad68a') in 0.0194918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.840607 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51457665d6caa695022ce878b2cf8f90') in 0.0154661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.132023 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e55bdb85e805daed1d990ec561cd0c9e') in 0.0088565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.543072 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c27e43f404193a52dc78365bed58f431') in 0.0099096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.184777 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cf16bdb90bdd17eff8cd322c946dff1') in 0.0095883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.052688 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b51249492bbc551e549963e3ec41537') in 0.0101468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.940291 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca41a6a211af2f0efffe4a557f130d3') in 0.0119033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.451581 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bd50de66869a6775c043536d82e388f') in 0.0087872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.057174 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx
+  artifactKey: Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx using Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1661ff32ce2272a709d28605e7e41c') in 0.0640471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739920 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx
+  artifactKey: Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx using Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1611ebe43f8ecd664586c7b18813b63') in 0.0270309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.368816 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx
+  artifactKey: Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk1 1.fbx using Guid(322cd55b75d034f4ebdbb9a5d3b23b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a9698046427eddca327364a2b68a09f') in 0.0487326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.441683 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx
+  artifactKey: Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx using Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9accea8f413d91f76c9d3ab79868de9a') in 0.063083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854513 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx
+  artifactKey: Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx using Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f08c7a88d7f2a3146d530b7ad27b0232') in 0.0251833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.411144 seconds.
+  path: Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx
+  artifactKey: Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Mesh/Obliesk3.fbx using Guid(9960acc51ffa45e4f9f3ea1b059257d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b99bafcaaf5da5f2ee40ab4ee46ef95') in 0.067231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.349267 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7c6050bb5630fe5073cc11ac7dda882') in 0.0084915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.013791 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e507f605af28fe2b4ed83c72e6284f') in 0.0118346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.439768 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03a320e5425c00261e9f1b97a24c3ba9') in 0.0087465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.328538 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e7b84125067c7b93af3d4e4c6c32715') in 0.0085675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.954751 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e07d7b928efd145a4cd63aa9413c1a4') in 0.0096402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.303219 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '939b4866a6be79af87ba77cb58f7d464') in 0.0126154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.181211 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a70e9ebaf20650d996c958eb35028011') in 0.0090733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.611450 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interaction.png
+  artifactKey: Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/interaction.png using Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d77f4b7241bd6005124e0f6c025ecbb') in 0.0143507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.875178 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interaction.png
+  artifactKey: Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/interaction.png using Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04891bd50cd3bc7a955b1f39e9ee67f0') in 0.0139589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.868270 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/interaction.mat
+  artifactKey: Guid(f3cca00512eedd14a85d3ee50bedc58f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/interaction.mat using Guid(f3cca00512eedd14a85d3ee50bedc58f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5254cd09de8834d659ed0d8fc4ffe453') in 0.0099443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.697082 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interaction.png
+  artifactKey: Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/interaction.png using Guid(69819055d13a1f54cb0e715a7e0fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10ac82dab62a9883b2318c442848bc4d') in 0.0092744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.652944 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interactions.mat
+  artifactKey: Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/interactions.mat using Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '608b3a2d6a2a01d6775b45a670032948') in 0.012888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863221 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interactions.mat
+  artifactKey: Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/interactions.mat using Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75679b1f7a6be81375758c9a7e291fd3') in 0.0062087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.681185 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interactions.mat
+  artifactKey: Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/interactions.mat using Guid(ef2854809dbe11b40ba03d0b4ae28a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e1e1c6e78d06c4526e0cf79d77e7ab3') in 3.9357735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.366260 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd92553ff51bd55b32e61d62d2c766bc') in 0.0107203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.325930 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/interaction.mat
+  artifactKey: Guid(f3cca00512eedd14a85d3ee50bedc58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Materials/interaction.mat using Guid(f3cca00512eedd14a85d3ee50bedc58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f35b9f60559bc2fab1000c9bbca03e39') in 0.012973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.761654 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21941dfbb15236537e73e73136dd7fb3') in 0.0125724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.429345 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7b5b3b41ef132686695de4361808f66') in 0.0134344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.435102 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfaaec85834b1bbbba94f205cec82bf2') in 0.0104562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.467786 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '202ba5c8ba9e9cc2694dcb2ba32d423c') in 0.0096052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.154439 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c558babb799d2b4138f6f1e2e53f957') in 0.0090792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.130648 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interactions.png
+  artifactKey: Guid(bcdb45e6a8478af46b0fb3ae83a148a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/interactions.png using Guid(bcdb45e6a8478af46b0fb3ae83a148a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef562eb4b1fba2b4cecf8af8fa1b4519') in 0.0117934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.762783 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/interactions.png
+  artifactKey: Guid(bcdb45e6a8478af46b0fb3ae83a148a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/interactions.png using Guid(bcdb45e6a8478af46b0fb3ae83a148a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b75de812a16abaec86c74dcb66eb9be6') in 0.0138231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.594710 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/interactions.mat
+  artifactKey: Guid(e35b154b4931b91498fb19e1e1a962ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/interactions.mat using Guid(e35b154b4931b91498fb19e1e1a962ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bd676168e34887f76860fef19ecc138') in 0.00997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.814449 seconds.
+  path: Assets/ShihabParts/room3_stoneTablets/Materials/wall tablet_2048_diffuse.mat
+  artifactKey: Guid(59bd6de73159c594ba9682c4c43a5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/room3_stoneTablets/Materials/wall tablet_2048_diffuse.mat using Guid(59bd6de73159c594ba9682c4c43a5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a4e586f262455a21c8afee4895ab011') in 0.2334099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UnityTechnologies/Basic Asset Pack Interior/Materials/WallPurple.mat
+  artifactKey: Guid(991a2f3f1e99b1649b5c043cf6efe0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Basic Asset Pack Interior/Materials/WallPurple.mat using Guid(991a2f3f1e99b1649b5c043cf6efe0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '635bb6d626046b0df8d9bee861047e2a') in 0.0315586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityTechnologies/Basic Asset Pack Interior/Materials/WallsBlue.mat
+  artifactKey: Guid(9eaf7873583253a4eb7f91ae48b41745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Basic Asset Pack Interior/Materials/WallsBlue.mat using Guid(9eaf7873583253a4eb7f91ae48b41745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4ec43155be23fb8be3efe31118d674') in 0.0313673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.652757 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Shaders/Unlit_Fresnel.shadergraph
+  artifactKey: Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Shaders/Unlit_Fresnel.shadergraph using Guid(e19b5bb6cb8e91e43b1b5d81a069296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61dcc6fd40780f4989389fe63c643348') in 0.4605342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.230491 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '707bdfa786dc0bc609d696543868bccf') in 0.0123241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.477957 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/instructions_Ai.png
+  artifactKey: Guid(fe143b22a1b4bd140859fb3e6f038df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/textures/instructions_Ai.png using Guid(fe143b22a1b4bd140859fb3e6f038df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '908724a12d443ab542ffe1e0150da563') in 0.0125462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.948833 seconds.
+  path: Assets/ShihabParts/ShihabArt/textures/instructions_Ai.png
+  artifactKey: Guid(fe143b22a1b4bd140859fb3e6f038df9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/textures/instructions_Ai.png using Guid(fe143b22a1b4bd140859fb3e6f038df9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd31ed9bb43bd27a8241215861656a94') in 0.0137717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.284707 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/instructions_Ai.mat
+  artifactKey: Guid(d061e4914b18dba40986d11b3edb953f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/instructions_Ai.mat using Guid(d061e4914b18dba40986d11b3edb953f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '037757870bf8a5561292515c367639ae') in 0.0079682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.473139 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e7812329d308f662a410d34419f0b98') in 0.0092805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.088030 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9e8f7fa9d3e2d569856bed2ddf51518') in 0.0095528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.276989 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63b04decf0dd46582b810a83df090e28') in 0.0089136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.308225 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'deb6bf5852364e9923f8f6b15485f618') in 0.0092928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.638653 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '963291dc5a90a4acc1fa8db5805bbaa8') in 0.0124189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.859040 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c618201abe610180264b8444b4c22e4') in 0.0091777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.657107 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d861f964adcdf646b716702be3e25f4') in 0.0101148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.030145 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c5827797e6d8b7ed5647322b70942d3') in 0.0096283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.998264 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98a9574a7be3d211960414a6517a4ee2') in 0.0109425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.533384 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb154ea007e2fdcb306c8050026703e4') in 0.0127578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.879002 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba6c1016471b33dd62c02d86624cf27') in 0.0009216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.660741 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fc07c14fb93861c330c34d71ca43979') in 0.0092221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.061800 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fab3273ac640ffc2fca92bf44fc208a') in 0.0087443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.869520 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c53a0730a68c53eeb7f63348699518a5') in 0.0095501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.992819 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a5e5d371c3e9ab77e7cf82d9280056') in 0.0009618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.576580 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a146f8d40e5d357344e545641d23b1b5') in 0.010083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.190086 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56eceb73ebbe34441e7b276e87d9d04e') in 0.0096043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.128044 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e555cba79e84e3086dae3c9b194c4b69') in 0.0015261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.256779 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/instructions_Ai.mat
+  artifactKey: Guid(d061e4914b18dba40986d11b3edb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShihabParts/ShihabArt/Materials/instructions_Ai.mat using Guid(d061e4914b18dba40986d11b3edb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaef9c9353cbfbb099ebfaa9176f26c6') in 0.0173248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.627937 seconds.
+  path: Assets/ShihabParts/ShihabArt/Materials/interactions.mat
+  artifactKey: Guid(e35b154b4931b91498fb19e1e1a962ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ShihabParts/ShihabArt/Materials/interactions.mat using Guid(e35b154b4931b91498fb19e1e1a962ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1733c20df8fc138c37a7bcb45a49ab41') in 0.0122846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.392077 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44c8b7711f21407bd85b8c286d6531e2') in 0.0109009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.417530 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6642bc6d176ac2f565fef1bb1e3575c6') in 0.0099208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.725307 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f7c1e87fa136d8a4af58bdb65a4caef') in 0.0008437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.904756 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainMenu.unity using Guid(72b1e3dcb6a220f408d74842ecac6939) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e821e7f34e939c4bb18f62b9f00df193') in 0.0115724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.820 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.09 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 15.53 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.658 seconds
+Domain Reload Profiling: 4484ms
+	BeginReloadAssembly (716ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (72ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (267ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (996ms)
+		LoadAssemblies (732ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (459ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (403ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2659ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2266ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (1799ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 18.11 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10686 unused Assets / (9.6 MB). Loaded Objects now: 11443.
+Memory consumption went from 315.3 MB to 305.6 MB.
+Total: 39.446600 ms (FindLiveObjects: 1.799800 ms CreateObjectMapping: 2.308900 ms MarkObjects: 25.605900 ms  DeleteObjects: 9.729100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.254 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.55 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 15.48 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.384 seconds
+Domain Reload Profiling: 3643ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (149ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (767ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (329ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2090ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (1643ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.47 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10686 unused Assets / (8.5 MB). Loaded Objects now: 11447.
+Memory consumption went from 315.1 MB to 306.6 MB.
+Total: 38.303800 ms (FindLiveObjects: 1.649000 ms CreateObjectMapping: 3.367000 ms MarkObjects: 25.047900 ms  DeleteObjects: 8.237200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.192 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.14 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 16.14 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.368 seconds
+Domain Reload Profiling: 3564ms
+	BeginReloadAssembly (351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (309ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2098ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (1659ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.38 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10686 unused Assets / (8.0 MB). Loaded Objects now: 11451.
+Memory consumption went from 315.2 MB to 307.2 MB.
+Total: 29.613100 ms (FindLiveObjects: 1.386900 ms CreateObjectMapping: 1.889000 ms MarkObjects: 20.918500 ms  DeleteObjects: 5.416700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.219 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.07 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.42 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.103 seconds
+Domain Reload Profiling: 4326ms
+	BeginReloadAssembly (384ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (310ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3104ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2829ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (2380ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.90 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10686 unused Assets / (9.0 MB). Loaded Objects now: 11455.
+Memory consumption went from 245.4 MB to 236.5 MB.
+Total: 35.642900 ms (FindLiveObjects: 1.461700 ms CreateObjectMapping: 1.835100 ms MarkObjects: 24.294200 ms  DeleteObjects: 8.050100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.496 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 22.12 ms, found 17 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.71 ms, found 17 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.147 seconds
+Domain Reload Profiling: 4649ms
+	BeginReloadAssembly (417ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (145ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (957ms)
+		LoadAssemblies (617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (476ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (421ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (3147ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (277ms)
+			ProcessInitializeOnLoadAttributes (2196ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.26 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10686 unused Assets / (9.8 MB). Loaded Objects now: 11459.
+Memory consumption went from 315.3 MB to 305.5 MB.
+Total: 44.551200 ms (FindLiveObjects: 1.963900 ms CreateObjectMapping: 3.672400 ms MarkObjects: 29.592300 ms  DeleteObjects: 9.320000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
