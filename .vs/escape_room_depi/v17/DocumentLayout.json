@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|e:\\myprojects\\unity_projects\\escape room pro\\escape_room_depi\\assets\\shihabparts\\shihab scripts\\itemsrestorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\itemsrestorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|e:\\myprojects\\unity_projects\\escape room pro\\escape_room_depi\\assets\\shihabparts\\shihab scripts\\updated\\pyramidslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\updated\\pyramidslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\assets\\shihabparts\\shihab scripts\\updated\\room1_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\shihab scripts\\updated\\room1_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\assets\\tomp assets\\scripts\\key place ariser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\tomp assets\\scripts\\key place ariser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\room3_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB5978D-3AD9-B869-70D5-9EFDB8655F22}|Assembly-CSharp.csproj|solutionrelative:assets\\shihabparts\\room3_stonetablets\\puzzle3_scrpts\\room3_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\pyramid1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ShihabParts\\shihab scripts\\pyramid1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "itemsRestorer.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\itemsRestorer.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\itemsRestorer.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\itemsRestorer.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\itemsRestorer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T13:48:24.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pyramidSlot.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\Updated\\pyramidSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\Updated\\pyramidSlot.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\Updated\\pyramidSlot.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\Updated\\pyramidSlot.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:34:29.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "room1_Manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\Updated\\room1_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\Updated\\room1_Manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\Updated\\room1_Manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\Updated\\room1_Manager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:26:49.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Room3_Manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room3_stoneTablets\\puzzle3_scrpts\\Room3_Manager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:26:20.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "key place ariser.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\Tomp Assets\\scripts\\key place ariser.cs",
+              "RelativeDocumentMoniker": "Assets\\Tomp Assets\\scripts\\key place ariser.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\Tomp Assets\\scripts\\key place ariser.cs",
+              "RelativeToolTip": "Assets\\Tomp Assets\\scripts\\key place ariser.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:23:27.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jigsaw_manager.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\room2_jigsaw\\scripts_jigsaw\\jigsaw_manager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T09:42:16.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pyramid1.cs",
+              "DocumentMoniker": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "RelativeDocumentMoniker": "Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "ToolTip": "E:\\MyProjects\\Unity_Projects\\Escape Room pro\\escape_room_depi\\Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "RelativeToolTip": "Assets\\ShihabParts\\shihab scripts\\pyramid1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T23:43:43.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

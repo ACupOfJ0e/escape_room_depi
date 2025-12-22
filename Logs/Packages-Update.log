@@ -38,3 +38,11 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.modules.accessibility@1.0.0
   com.unity.multiplayer.center@1.0.0
+
+=== Sun Dec 21 19:29:52 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.inputsystem from version 1.14.2 to 1.16.0
