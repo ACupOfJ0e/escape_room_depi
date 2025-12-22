@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomb of the Forgotten Architect - UML Diagrams</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gold: #D4AF37;
+            --dark-stone: #2C1810;
+            --warm-sand: #E8D5B7;
+            --deep-shadow: #1A0F08;
+            --accent-red: #8B2500;
+            --light-parchment: #F5ECD7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Crimson Text', serif;
+            background: linear-gradient(135deg, var(--deep-shadow) 0%, var(--dark-stone) 50%, #3d2817 100%);
+            color: var(--warm-sand);
+            line-height: 1.7;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(139, 37, 0, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 30px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 80px;
+            padding: 60px 30px;
+            background: linear-gradient(180deg, rgba(212, 175, 55, 0.08) 0%, transparent 100%);
+            border-bottom: 2px solid var(--primary-gold);
+            position: relative;
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        header::before,
+        header::after {
+            content: '◆';
+            position: absolute;
+            font-size: 24px;
+            color: var(--primary-gold);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        header::before { left: 50px; }
+        header::after { right: 50px; }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: var(--primary-gold);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 
+                2px 2px 4px rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(212, 175, 55, 0.3);
+            animation: glowPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes glowPulse {
+            0%, 100% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.3); }
+            50% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 30px rgba(212, 175, 55, 0.5); }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: var(--warm-sand);
+            opacity: 0.9;
+            letter-spacing: 1px;
+        }
+
+        .team-info {
+            margin-top: 30px;
+            font-size: 1.1rem;
+            color: var(--warm-sand);
+            opacity: 0.8;
+        }
+
+        nav {
+            background: rgba(44, 24, 16, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 25px;
+            margin-bottom: 60px;
+            border: 2px solid var(--primary-gold);
+            border-radius: 8px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .nav-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3rem;
+            color: var(--primary-gold);
+            margin-bottom: 15px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+        }
+
+        .nav-button {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(139, 37, 0, 0.1) 100%);
+            border: 1px solid var(--primary-gold);
+            color: var(--warm-sand);
+            padding: 14px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Crimson Text', serif;
+            font-size: 1rem;
+            border-radius: 4px;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .nav-button:hover::before {
+            left: 100%;
+        }
+
+        .nav-button:hover {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(139, 37, 0, 0.2) 100%);
+            border-color: var(--warm-sand);
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+        }
+
+        .diagram-section {
+            background: rgba(28, 18, 12, 0.6);
+            border: 2px solid var(--primary-gold);
+            border-radius: 12px;
+            padding: 50px;
+            margin-bottom: 80px;
+            box-shadow: 
+                0 12px 40px rgba(0, 0, 0, 0.5),
+                inset 0 1px 0 rgba(212, 175, 55, 0.1);
+            position: relative;
+            animation: fadeIn 0.8s ease-out;
+            animation-fill-mode: both;
+        }
+
+        .diagram-section:nth-child(1) { animation-delay: 0.1s; }
+        .diagram-section:nth-child(2) { animation-delay: 0.2s; }
+        .diagram-section:nth-child(3) { animation-delay: 0.3s; }
+
+        .diagram-section::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--primary-gold);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            color: var(--primary-gold);
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            position: relative;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary-gold), transparent);
+        }
+
+        .diagram-wrapper {
+            background: var(--light-parchment);
+            padding: 40px;
+            border-radius: 8px;
+            overflow-x: auto;
+            box-shadow: 
+                inset 0 2px 4px rgba(0, 0, 0, 0.1),
+                0 4px 16px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .mermaid {
+            display: flex;
+            justify-content: center;
+            min-height: 200px;
+        }
+
+        .description {
+            margin-top: 30px;
+            padding: 25px;
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid var(--primary-gold);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--warm-sand);
+            border-radius: 4px;
+        }
+
+        .patterns-section {
+            background: rgba(139, 37, 0, 0.15);
+            border: 2px solid var(--accent-red);
+            border-radius: 12px;
+            padding: 50px;
+            margin-top: 80px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .patterns-section h2 {
+            color: var(--accent-red);
+        }
+
+        .pattern-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .pattern-card {
+            background: rgba(28, 18, 12, 0.8);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 8px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .pattern-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+            border-color: var(--primary-gold);
+        }
+
+        .pattern-card h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--primary-gold);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .pattern-card ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .pattern-card li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: var(--warm-sand);
+        }
+
+        .pattern-card li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--primary-gold);
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 30px;
+            margin-top: 100px;
+            border-top: 2px solid var(--primary-gold);
+            background: linear-gradient(180deg, transparent 0%, rgba(212, 175, 55, 0.05) 100%);
+        }
+
+        footer p {
+            font-size: 1.1rem;
+            color: var(--warm-sand);
+            opacity: 0.8;
+            font-style: italic;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--deep-shadow);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-gold);
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--warm-sand);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            .subtitle { font-size: 1.2rem; }
+            .diagram-section { padding: 30px 20px; }
+            .nav-grid { grid-template-columns: 1fr; }
+            header::before, header::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tomb of the Forgotten Architect</h1>
+            <p class="subtitle">UML Diagrams & System Architecture</p>
+            <div class="team-info">
+                <p>Youssef Hatem • Mohamed Amr • Shihab Rehan</p>
+            </div>
+        </header>
+
+        <nav>
+            <div class="nav-title">Diagram Navigation</div>
+            <div class="nav-grid">
+                <button class="nav-button" onclick="scrollToSection('diagram1')">1. Complete System Class Diagram</button>
+                <button class="nav-button" onclick="scrollToSection('diagram2')">2. Pyramid Puzzle Sequence</button>
+                <button class="nav-button" onclick="scrollToSection('diagram3')">3. Cipher Puzzle Sequence</button>
+                <button class="nav-button" onclick="scrollToSection('diagram4')">4. Balance Puzzle Sequence</button>
+                <button class="nav-button" onclick="scrollToSection('diagram5')">5. Key Assembly Sequence</button>
+                <button class="nav-button" onclick="scrollToSection('diagram6')">6. Component Architecture</button>
+                <button class="nav-button" onclick="scrollToSection('diagram7')">7. State Diagram</button>
+                <button class="nav-button" onclick="scrollToSection('diagram8')">8. Activity Flow</button>
+                <button class="nav-button" onclick="scrollToSection('diagram9')">9. Event Architecture</button>
+                <button class="nav-button" onclick="scrollToSection('diagram10')">10. Audio System Class Diagram</button>
+                <button class="nav-button" onclick="scrollToSection('diagram11')">11. Deployment Diagram</button>
+                <button class="nav-button" onclick="scrollToSection('patterns')">Design Patterns</button>
+            </div>
+        </nav>
+
+        <section id="diagram1" class="diagram-section">
+            <h2>1. Complete System Class Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+classDiagram
+    class room1_Manager {
+        -GameObject keystone
+        -pyramidSlot[] puzzlesSlots
+        +Start() void
+        -CheckAllSlotsFilled(bool) void
+        -PuzzleSolved() void
+        -OnDestroy() void
+    }
+
+    class pyramidSlot {
+        -int slotId
+        +bool isFilled
+        +event UnityAction~bool~ onCorrectPlacement
+        +OnTriggerEnter(Collider) void
+        +OnTriggerExit(Collider) void
+    }
+
+    class pyramid1 {
+        -int tokenId
+        -pyramidSlot pyramidSlot
+        -Vector3 slotLocation
+        -Vector3 offset
+        -GameObject grabbableComponent
+        -Rigidbody rb
+        +Start() void
+        +getTokenId() int
+        +OnPlacedCorrectly() void
+    }
+
+    class Room3_Manager {
+        -slotHandler[] slots
+        -GameObject keyStone
+        +Start() void
+        -CheckAllSlotsFilled() void
+        -PuzzleSolved() void
+    }
+
+    class slotHandler {
+        -int slotid
+        +bool isPlaced
+        +event UnityAction onTabletPlaced
+        -OnTriggerEnter(Collider) void
+    }
+
+    class tabletHandler {
+        -int id
+        -GameObject grabbableComponent
+        -Vector3 insideWallOffset
+        -float snapSpeed
+        -Rigidbody rb
+        -bool isLocked
+        +Start() void
+        +GetID() int
+        +InitiateSnap(Transform) void
+        -AnimateSnap(Transform) IEnumerator
+    }
+
+    class jigsaw_manager {
+        -MassHandler massHandler_left
+        -MassHandler massHandler_right
+        -GameObject keyStone
+        +Start() void
+        +Update() void
+        -CheckMasses(float) void
+        -OnEnable() void
+        -OnDisable() void
+    }
+
+    class MassHandler {
+        +event UnityAction~float~ onMassChanged
+        -float currentMass
+        -OnTriggerEnter(Collider) void
+        -OnTriggerExit(Collider) void
+        -SubtractMass(float) void
+        -AddMass(float) void
+        +GetCurrentMass() float
+    }
+
+    class plate_logic {
+        -int itemsOnPlate
+        +event UnityAction onItemDropped
+        -OnTriggerEnter(Collider) void
+        -OnTriggerExit(Collider) void
+        +GetItemsOnPlate() int
+    }
+
+    class plateVisual {
+        -MassHandler massHandler_plate
+        -plate_logic plateLogic
+        -Vector3 initialPosition
+        -bool canMove
+        -Vector3 targetPosition
+        -float moveSpeed
+        -Vector3 offsetVector
+        +Start() void
+        -Update() void
+        -RecalculateTargetPosition() void
+        -OnEnable() void
+        -OnDisable() void
+    }
+
+    class keyplacment {
+        +GameObject left
+        +GameObject right
+        +GameObject head
+        +GameObject main_door
+        +float durationz
+        +float durationy
+        -float openingz
+        -float openingy
+        +GameObject door1
+        +GameObject door2
+        +GameObject door3
+        -int keyParts
+        +Start() void
+        -OnTriggerEnter(Collider) void
+        +OpenDoor() IEnumerator
+    }
+
+    class keyplaceariser {
+        +float durationy
+        -float arisingTarget
+        +GameObject key
+        -Rigidbody rb
+        -Collider[] col
+        +arise() IEnumerator
+    }
+
+    class doorcontroller {
+        -float openingx
+        -float openingy
+        -float closingx
+        -float closingy
+        +float durationx
+        +float durationy
+        +float length
+        +AudioClip doorSoundClose
+        +AudioClip doorSoundOpen
+        -bool start
+        -AudioSource source
+        +Start() void
+        +OpenDoor() IEnumerator
+        +CloseDoor() IEnumerator
+    }
+
+    class theend {
+        +float durationy
+        -float closingy
+        +OnTriggerEnter(Collider) void
+        +CloseDoor() IEnumerator
+    }
+
+    class objectsound {
+        +AudioClip[] impactSounds
+        +float minForce
+        -AudioSource audioSource
+        +Start() void
+        -OnCollisionEnter(Collision) void
+    }
+
+    class footsteps {
+        +AudioClip[] footstepSounds
+        +float distance
+        -AudioSource audioSource
+        -Vector3 lastPosition
+        -float distanceMoved
+        +Start() void
+        +Update() void
+        -PlayFootstep() void
+    }
+
+    class lightcontroller {
+        +Texture2D[] darkLightmapDir
+        +Texture2D[] darkLightmapColor
+        +Texture2D[] brightLightmapDir
+        +Texture2D[] brightLightmapColor
+        -LightmapData[] darkLightmap
+        -LightmapData[] brightLightmap
+        +Start() void
+    }
+
+    class xray {
+        +Start() void
+    }
+
+    room1_Manager "1" --> "3" pyramidSlot : manages
+    pyramidSlot "1" --> "1" pyramid1 : validates
+    pyramid1 --> pyramidSlot : references
+
+    Room3_Manager "1" --> "*" slotHandler : manages
+    slotHandler "1" --> "1" tabletHandler : validates
+
+    jigsaw_manager "1" --> "2" MassHandler : monitors
+    plateVisual --> MassHandler : observes
+    plateVisual --> plate_logic : observes
+    plate_logic --> MassHandler : works with
+
+    keyplacment --> keyplaceariser : triggers
+    keyplacment --> doorcontroller : controls
+    room1_Manager --> keyplaceariser : activates
+    Room3_Manager --> keyplaceariser : activates
+    jigsaw_manager --> keyplaceariser : activates
+
+    doorcontroller --> objectsound : uses AudioSource
+    footsteps --> objectsound : similar pattern
+                </div>
+            </div>
+            <div class="description">
+                <strong>Updated Complete System:</strong> This diagram now includes the key assembly system (keyplacment, keyplaceariser), door mechanics (doorcontroller, theend), audio systems (objectsound, footsteps), visual effects (lightcontroller, xray), and their relationships with the three puzzle systems. The key assembly serves as the central hub connecting all three puzzles to the final escape sequence.
+            </div>
+        </section>
+
+        <section id="diagram2" class="diagram-section">
+            <h2>2. Pyramid Puzzle (Diorama) - Sequence Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+sequenceDiagram
+    participant Player
+    participant pyramid1 as Pyramid Token
+    participant pyramidSlot as Pyramid Slot
+    participant room1_Manager as Room Manager
+    participant keystone as Keystone
+
+    Player->>pyramid1: Grabs and moves pyramid
+    Player->>pyramidSlot: Places pyramid in slot
+    pyramidSlot->>pyramid1: OnTriggerEnter(Collider)
+    pyramid1->>pyramidSlot: getTokenId()
+    
+    alt Token ID matches Slot ID
+        pyramidSlot->>pyramidSlot: Set isFilled = true
+        pyramidSlot->>room1_Manager: Invoke onCorrectPlacement(true)
+        pyramidSlot->>pyramid1: OnPlacedCorrectly()
+        pyramid1->>pyramid1: Snap to position, disable grabbable
+        
+        room1_Manager->>room1_Manager: CheckAllSlotsFilled()
+        
+        alt All 3 slots filled
+            room1_Manager->>room1_Manager: PuzzleSolved()
+            room1_Manager->>keystone: SetActive(true)
+            keystone-->>Player: Key fragment appears!
+        else Some slots still empty
+            room1_Manager-->>Player: Continue puzzle
+        end
+    else Token ID doesn't match
+        pyramidSlot-->>Player: No action
+    end
+                </div>
+            </div>
+            <div class="description">
+                The pyramid puzzle requires players to place three pyramid models (representing Khufu, Khafre, and Menkaure) into their correct positions on the Giza plateau diorama. Each pyramid has a unique ID that must match its corresponding slot.
+            </div>
+        </section>
+
+        <section id="diagram3" class="diagram-section">
+            <h2>3. Cipher Puzzle (Hieroglyphic Tablets) - Sequence Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+sequenceDiagram
+    participant Player
+    participant tabletHandler as Tablet
+    participant slotHandler as Wall Slot
+    participant Room3_Manager as Room Manager
+    participant keyStone as Keystone
+
+    Player->>tabletHandler: Grabs tablet
+    Player->>slotHandler: Brings tablet to wall slot
+    slotHandler->>tabletHandler: OnTriggerEnter(Collider)
+    tabletHandler->>slotHandler: GetID()
+    
+    alt Tablet ID matches Slot ID
+        slotHandler->>slotHandler: Set isPlaced = true
+        slotHandler->>Room3_Manager: Invoke onTabletPlaced()
+        slotHandler->>tabletHandler: InitiateSnap(Transform)
+        
+        tabletHandler->>tabletHandler: Disable grabbable
+        tabletHandler->>tabletHandler: Set physics to kinematic
+        tabletHandler->>tabletHandler: AnimateSnap() - Align & slide into wall
+        
+        Room3_Manager->>Room3_Manager: CheckAllSlotsFilled()
+        
+        alt All slots filled with correct tablets
+            Room3_Manager->>Room3_Manager: PuzzleSolved()
+            Room3_Manager->>keyStone: SetActive(true)
+            keyStone-->>Player: Key fragment appears!
+        else Some slots still empty
+            Room3_Manager-->>Player: Continue puzzle
+        end
+    else Tablet ID doesn't match
+        slotHandler-->>Player: Tablet not accepted
+    end
+                </div>
+            </div>
+            <div class="description">
+                The cipher puzzle challenges players to decode hieroglyphic symbols and place tablets in the correct wall slots. When a correct match is made, the tablet smoothly animates into the wall with a satisfying snap effect.
+            </div>
+        </section>
+
+        <section id="diagram4" class="diagram-section">
+            <h2>4. Balance Puzzle - Sequence Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+sequenceDiagram
+    participant Player
+    participant WeightObject as Weight Object
+    participant MassHandler_L as Left Plate MassHandler
+    participant MassHandler_R as Right Plate MassHandler
+    participant plateVisual_L as Left Plate Visual
+    participant jigsaw_manager as Balance Manager
+    participant keyStone as Keystone
+
+    Player->>WeightObject: Picks up object
+    Player->>MassHandler_L: Places object on left plate
+    
+    MassHandler_L->>MassHandler_L: OnTriggerEnter(Collider)
+    MassHandler_L->>MassHandler_L: AddMass(rb.mass)
+    MassHandler_L->>plateVisual_L: Invoke onMassChanged(currentMass)
+    plateVisual_L->>plateVisual_L: RecalculateTargetPosition()
+    plateVisual_L->>plateVisual_L: Animate plate down
+    
+    MassHandler_L->>jigsaw_manager: Invoke onMassChanged(leftMass)
+    jigsaw_manager->>jigsaw_manager: CheckMasses()
+    jigsaw_manager->>MassHandler_R: GetCurrentMass()
+    
+    alt Masses balanced (|left - right| < 0.1) AND left > 0
+        jigsaw_manager->>keyStone: SetActive(true)
+        keyStone-->>Player: Key fragment appears!
+    else Masses not balanced
+        jigsaw_manager-->>Player: Continue balancing
+    end
+                </div>
+            </div>
+            <div class="description">
+                The balance puzzle requires careful weight distribution across two plates. The plates physically move up and down based on mass, providing immediate visual feedback. Players must achieve equilibrium to unlock the key fragment.
+            </div>
+        </section>
+
+        <section id="diagram5" class="diagram-section">
+            <h2>5. Key Assembly & Final Door - Sequence Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+sequenceDiagram
+    participant Player
+    participant KeyFragment as Key Fragment
+    participant keyplacment as Key Placement System
+    participant keyplaceariser as Key Ariser
+    participant doorcontroller as Door Controllers
+    participant main_door as Main Door
+    participant theend as Exit Trigger
+
+    Note over KeyFragment,keyplacment: Player collects 3 key fragments from puzzles
+
+    Player->>keyplacment: Brings first key fragment (left/right/head)
+    keyplacment->>keyplacment: OnTriggerEnter(Collider)
+    
+    alt Fragment is "left"
+        keyplacment->>keyplacment: Activate left GameObject
+        keyplacment->>KeyFragment: Destroy fragment
+        keyplacment->>doorcontroller: door3.CloseDoor()
+        keyplacment->>keyplacment: keyParts++
+    else Fragment is "right"
+        keyplacment->>keyplacment: Activate right GameObject
+        keyplacment->>KeyFragment: Destroy fragment
+        keyplacment->>doorcontroller: door1.CloseDoor()
+        keyplacment->>keyplacment: keyParts++
+    else Fragment is "head"
+        keyplacment->>keyplacment: Activate head GameObject
+        keyplacment->>KeyFragment: Destroy fragment
+        keyplacment->>doorcontroller: door2.CloseDoor()
+        keyplacment->>keyplacment: keyParts++
+    end
+
+    Note over keyplacment: Player continues collecting fragments
+
+    Player->>keyplacment: Places third and final fragment
+    keyplacment->>keyplacment: keyParts == 3
+    keyplacment->>keyplaceariser: arise() - Key rises from pedestal
+    keyplaceariser->>keyplaceariser: Disable physics & collisions
+    keyplaceariser->>keyplaceariser: Animate upward (10s duration)
+    keyplaceariser->>keyplaceariser: Re-enable physics
+    keyplaceariser-->>Player: Complete key is ready!
+    
+    keyplacment->>main_door: OpenDoor() - Start door animation
+    main_door->>main_door: Play door sound
+    main_door->>main_door: Move in Z axis (8.07 units, 10s)
+    main_door->>main_door: Move in Y axis (7.15 units, 2s)
+    main_door-->>Player: Path to exit revealed!
+
+    Player->>Player: Takes complete key
+    Player->>main_door: Walks through doorway
+    Player->>theend: Crosses exit trigger
+    theend->>theend: OnTriggerEnter(Player)
+    theend->>theend: CloseDoor() - Final door closes
+    theend-->>Player: Victory! Escaped the tomb!
+                </div>
+            </div>
+            <div class="description">
+                The key assembly system is the game's culmination. When players place all three key fragments (left, right, head), the doors to puzzle rooms close, a complete key rises from the pedestal with dramatic animation, and the massive main door opens in two stages. After the player exits, the final door closes behind them, completing the escape room experience.
+            </div>
+        </section>
+
+        <section id="diagram6" class="diagram-section">
+            <h2>6. Component Architecture</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+graph TB
+    subgraph "VR Player System"
+        Player[VR Player Controller]
+        Grab[Grab Interaction]
+        Teleport[Teleportation]
+        Footsteps[footsteps Audio]
+    end
+
+    subgraph "Puzzle 1: Pyramid Diorama"
+        R1M[room1_Manager]
+        PS[pyramidSlot x3]
+        P1[pyramid1 Token x3]
+    end
+
+    subgraph "Puzzle 2: Balance Scale"
+        JM[jigsaw_manager]
+        MHL[MassHandler Left]
+        MHR[MassHandler Right]
+        PVL[plateVisual Left]
+        PVR[plateVisual Right]
+        PLL[plate_logic Left]
+        PLR[plate_logic Right]
+        WO[Weight Objects]
+    end
+
+    subgraph "Puzzle 3: Hieroglyphic Cipher"
+        R3M[Room3_Manager]
+        SH[slotHandler x4]
+        TH[tabletHandler x4]
+    end
+
+    subgraph "Key Assembly System"
+        KP[keyplacment]
+        KPA[keyplaceariser]
+        KeyFrags[Key Fragments: left, right, head]
+        CompleteKey[Complete Key]
+    end
+
+    subgraph "Door System"
+        DC1[doorcontroller - Room 1]
+        DC2[doorcontroller - Room 2]
+        DC3[doorcontroller - Room 3]
+        MainDoor[Main Exit Door]
+        EndDoor[theend - Final Door]
+    end
+
+    subgraph "Audio/Visual Effects"
+        ObjSound[objectsound]
+        LightCtrl[lightcontroller]
+        XRay[xray]
+    end
+
+    Player --> Grab
+    Player --> Footsteps
+    Grab --> P1
+    Grab --> WO
+    Grab --> TH
+    Grab --> KeyFrags
+
+    R1M --> PS
+    PS --> P1
+    P1 --> KeyFrags
+
+    JM --> MHL
+    JM --> MHR
+    MHL --> PVL
+    MHR --> PVR
+    PVL --> PLL
+    PVR --> PLR
+    WO --> MHL
+    WO --> MHR
+    JM --> KeyFrags
+
+    R3M --> SH
+    SH --> TH
+    R3M --> KeyFrags
+
+    KeyFrags --> KP
+    KP --> KPA
+    KP --> DC1
+    KP --> DC2
+    KP --> DC3
+    KPA --> CompleteKey
+
+    KP --> MainDoor
+    CompleteKey --> Player
+    Player --> MainDoor
+    MainDoor --> EndDoor
+
+    WO --> ObjSound
+    TH --> ObjSound
+    LightCtrl --> Player
+    XRay --> Player
+
+    style Player fill:#4A90E2
+    style R1M fill:#F5A623
+    style JM fill:#F5A623
+    style R3M fill:#F5A623
+    style KP fill:#E74C3C
+    style MainDoor fill:#7ED321
+                </div>
+            </div>
+            <div class="description">
+                <strong>Complete System Architecture:</strong> This updated component diagram shows how all systems interconnect. The three puzzle systems each produce key fragments that feed into the central Key Assembly System. Once all fragments are collected, the key ariser animates, puzzle room doors close, and the main exit door opens. Audio and visual effects enhance immersion throughout.
+            </div>
+        </section>
+
+        <section id="diagram7" class="diagram-section">
+            <h2>7. State Diagram - Puzzle State Flow</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+stateDiagram-v2
+    [*] --> GameStart
+    
+    GameStart --> Puzzle1_Active: Enter Room
+    GameStart --> Puzzle2_Active: Enter Room
+    GameStart --> Puzzle3_Active: Enter Room
+    
+    state "Pyramid Puzzle" as Puzzle1_Active {
+        [*] --> P1_Empty
+        P1_Empty --> P1_OneSlotFilled: Place correct pyramid
+        P1_OneSlotFilled --> P1_TwoSlotsFilled: Place correct pyramid
+        P1_TwoSlotsFilled --> P1_Solved: Place correct pyramid
+        P1_Solved --> [*]
+        
+        P1_OneSlotFilled --> P1_Empty: Remove pyramid
+        P1_TwoSlotsFilled --> P1_OneSlotFilled: Remove pyramid
+    }
+    
+    state "Balance Puzzle" as Puzzle2_Active {
+        [*] --> P2_Unbalanced
+        P2_Unbalanced --> P2_Balanced: Achieve balance
+        P2_Balanced --> P2_Unbalanced: Mass changes
+        P2_Balanced --> P2_Solved: Balance confirmed
+        P2_Solved --> [*]
+    }
+    
+    state "Cipher Puzzle" as Puzzle3_Active {
+        [*] --> P3_Empty
+        P3_Empty --> P3_Partial: Place correct tablet
+        P3_Partial --> P3_MoreTablets: Place correct tablets
+        P3_MoreTablets --> P3_Solved: All tablets placed
+        P3_Solved --> [*]
+    }
+    
+    Puzzle1_Active --> KeyFragment1: Puzzle Solved
+    Puzzle2_Active --> KeyFragment2: Puzzle Solved
+    Puzzle3_Active --> KeyFragment3: Puzzle Solved
+    
+    KeyFragment1 --> CheckCompletion
+    KeyFragment2 --> CheckCompletion
+    KeyFragment3 --> CheckCompletion
+    
+    CheckCompletion --> FinalDoor: All 3 Fragments
+    FinalDoor --> [*]: Escape!
+                </div>
+            </div>
+        <section id="diagram7" class="diagram-section">
+            <h2>7. State Diagram - Complete Game Flow</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+stateDiagram-v2
+    [*] --> GameStart
+    
+    GameStart --> Puzzle1_Active: Enter Room
+    GameStart --> Puzzle2_Active: Enter Room
+    GameStart --> Puzzle3_Active: Enter Room
+    
+    state "Pyramid Puzzle" as Puzzle1_Active {
+        [*] --> P1_Empty
+        P1_Empty --> P1_OneSlotFilled: Place correct pyramid
+        P1_OneSlotFilled --> P1_TwoSlotsFilled: Place correct pyramid
+        P1_TwoSlotsFilled --> P1_Solved: Place correct pyramid
+        P1_Solved --> [*]
+        
+        P1_OneSlotFilled --> P1_Empty: Remove pyramid
+        P1_TwoSlotsFilled --> P1_OneSlotFilled: Remove pyramid
+    }
+    
+    state "Balance Puzzle" as Puzzle2_Active {
+        [*] --> P2_Unbalanced
+        P2_Unbalanced --> P2_Balanced: Achieve balance
+        P2_Balanced --> P2_Unbalanced: Mass changes
+        P2_Balanced --> P2_Solved: Balance confirmed
+        P2_Solved --> [*]
+    }
+    
+    state "Cipher Puzzle" as Puzzle3_Active {
+        [*] --> P3_Empty
+        P3_Empty --> P3_Partial: Place correct tablet
+        P3_Partial --> P3_MoreTablets: Place correct tablets
+        P3_MoreTablets --> P3_Solved: All tablets placed
+        P3_Solved --> [*]
+    }
+    
+    Puzzle1_Active --> KeyFragment1: Puzzle Solved
+    Puzzle2_Active --> KeyFragment2: Puzzle Solved
+    Puzzle3_Active --> KeyFragment3: Puzzle Solved
+    
+    state "Key Assembly" as KeyAssembly {
+        [*] --> NoFragments
+        NoFragments --> OneFragment: Place fragment
+        OneFragment --> TwoFragments: Place fragment
+        TwoFragments --> AllFragments: Place final fragment
+        AllFragments --> KeyRising: Trigger arise()
+        KeyRising --> DoorOpening: Key animation complete
+        DoorOpening --> [*]: Main door open
+    }
+    
+    KeyFragment1 --> KeyAssembly
+    KeyFragment2 --> KeyAssembly
+    KeyFragment3 --> KeyAssembly
+    
+    KeyAssembly --> PuzzleDoorsClose: Close room doors
+    KeyAssembly --> FinalEscape: Main door opens
+    
+    FinalEscape --> ExitTrigger: Player walks through
+    ExitTrigger --> GameComplete: Final door closes
+    GameComplete --> [*]: Victory!
+                </div>
+            </div>
+            <div class="description">
+                <strong>Complete Game State Flow:</strong> This updated state diagram now includes the Key Assembly system states. Players can solve puzzles in any order, but once all three fragments are placed, a dramatic sequence unfolds: the key rises, room doors close, and the main exit opens, leading to the final escape and victory.
+            </div>
+        </section>
+
+        <section id="diagram8" class="diagram-section">
+            <h2>8. Activity Diagram - Player Puzzle-Solving Flow</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+flowchart TD
+    Start([Player Enters Tomb]) --> Explore[Explore Environment]
+    
+    Explore --> ChoosePuzzle{Which Puzzle?}
+    
+    ChoosePuzzle -->|Option 1| PyramidPuzzle[Approach Pyramid Diorama]
+    ChoosePuzzle -->|Option 2| BalancePuzzle[Approach Balance Scale]
+    ChoosePuzzle -->|Option 3| CipherPuzzle[Approach Wall Slots]
+    
+    PyramidPuzzle --> FindPyramids[Find 3 Pyramid Tokens]
+    FindPyramids --> PlacePyramid[Place Pyramid in Slot]
+    PlacePyramid --> CheckPyramid{Correct Slot?}
+    CheckPyramid -->|No| FindPyramids
+    CheckPyramid -->|Yes| PyramidSnap[Pyramid Snaps & Locks]
+    PyramidSnap --> AllPyramids{All 3 Placed?}
+    AllPyramids -->|No| FindPyramids
+    AllPyramids -->|Yes| Key1[Receive Key Fragment 1]
+    
+    BalancePuzzle --> FindWeights[Find Weight Objects]
+    FindWeights --> PlaceWeight[Place Objects on Plates]
+    PlaceWeight --> CheckBalance{Plates Balanced?}
+    CheckBalance -->|No| AdjustWeights[Adjust Object Placement]
+    AdjustWeights --> PlaceWeight
+    CheckBalance -->|Yes| Key2[Receive Key Fragment 2]
+    
+    CipherPuzzle --> FindTablets[Find Hieroglyphic Tablets]
+    FindTablets --> ReadClues[Read Environmental Clues]
+    ReadClues --> PlaceTablet[Place Tablet in Wall Slot]
+    PlaceTablet --> CheckTablet{Correct Position?}
+    CheckTablet -->|No| FindTablets
+    CheckTablet -->|Yes| TabletSnap[Tablet Snaps Into Wall]
+    TabletSnap --> AllTablets{All Tablets Placed?}
+    AllTablets -->|No| FindTablets
+    AllTablets -->|Yes| Key3[Receive Key Fragment 3]
+    
+    Key1 --> CheckAll{All 3 Fragments?}
+    Key2 --> CheckAll
+    Key3 --> CheckAll
+    
+    CheckAll -->|No| ChoosePuzzle
+    CheckAll -->|Yes| AssembleKey[Assemble Complete Key]
+    AssembleKey --> UnlockDoor[Unlock Final Door]
+    UnlockDoor --> End([Escape & Victory!])
+                </div>
+            </div>
+            <div class="description">
+                This activity diagram maps the player's decision-making process throughout the game. Players can tackle puzzles in any order, experimenting with trial and error until all three key fragments are collected.
+            </div>
+        </section>
+
+        <section id="diagram9" class="diagram-section">
+            <h2>9. Object Interaction Diagram - Event-Driven Architecture</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+graph LR
+    subgraph "Event Publishers"
+        PS[pyramidSlot<br/>onCorrectPlacement]
+        SH[slotHandler<br/>onTabletPlaced]
+        MH[MassHandler<br/>onMassChanged]
+        PL[plate_logic<br/>onItemDropped]
+    end
+
+    subgraph "Event Subscribers"
+        R1M[room1_Manager]
+        R3M[Room3_Manager]
+        JM[jigsaw_manager]
+        PV[plateVisual]
+    end
+
+    subgraph "Reward Objects"
+        K1[Keystone 1]
+        K2[Keystone 2]
+        K3[Keystone 3]
+    end
+
+    PS -.->|Subscribe| R1M
+    R1M -->|Activate| K1
+
+    SH -.->|Subscribe| R3M
+    R3M -->|Activate| K3
+
+    MH -.->|Subscribe| JM
+    MH -.->|Subscribe| PV
+    JM -->|Activate| K2
+
+    PL -.->|Subscribe| PV
+                </div>
+            </div>
+            <div class="description">
+                The event-driven architecture uses Unity's UnityAction events for loose coupling between components. Publishers broadcast state changes, and subscribers react accordingly without direct dependencies.
+            </div>
+        </section>
+
+        <section id="diagram10" class="diagram-section">
+            <h2>10. Audio System - Class Diagram</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+classDiagram
+    class AudioSource {
+        +volume float
+        +spatialBlend float
+        +Play() void
+        +PlayOneShot() void
+    }
+
+    class objectsound {
+        +impactSounds AudioClip
+        +minForce float
+        -audioSource AudioSource
+        +Start() void
+        -OnCollisionEnter() void
+    }
+
+    class footsteps {
+        +footstepSounds AudioClip
+        +distance float
+        -audioSource AudioSource
+        -lastPosition Vector3
+        -distanceMoved float
+        +Start() void
+        +Update() void
+        -PlayFootstep() void
+    }
+
+    class doorcontroller {
+        +doorSoundClose AudioClip
+        +doorSoundOpen AudioClip
+        -source AudioSource
+        +OpenDoor() IEnumerator
+        +CloseDoor() IEnumerator
+    }
+
+    class keyplacment {
+        +main_door GameObject
+        +OpenDoor() IEnumerator
+    }
+
+    class keyplaceariser {
+        +arise() IEnumerator
+    }
+
+    objectsound --> AudioSource
+    footsteps --> AudioSource
+    doorcontroller --> AudioSource
+    keyplacment --> doorcontroller
+    keyplaceariser --> AudioSource
+                </div>
+            </div>
+            <div class="description">
+                <strong>Audio System Architecture:</strong> The game uses Unity's AudioSource component throughout for immersive 3D spatial audio. Objects make impact sounds when colliding (objectsound with array of impactSounds), the player's movement triggers footsteps based on distance traveled (footsteps with array of footstepSounds), and doors play opening/closing sounds during animations (doorcontroller). Each audio script dynamically creates AudioSource components and plays sounds in response to gameplay events.
+            </div>
+        </section>
+
+        <section id="diagram11" class="diagram-section">
+            <h2>11. Deployment Diagram - VR System Architecture</h2>
+            <div class="diagram-wrapper">
+                <div class="mermaid">
+graph TB
+    subgraph "Meta Quest 2 Device"
+        subgraph "Unity Runtime"
+            GameEngine[Unity Game Engine]
+            XRToolkit[XR Interaction Toolkit]
+            AudioEngine[Unity Audio Engine]
+            
+            subgraph "Game Scripts"
+                Managers[Puzzle Managers:<br/>room1_Manager,<br/>Room3_Manager,<br/>jigsaw_manager]
+                Handlers[Object Handlers:<br/>pyramidSlot, slotHandler,<br/>MassHandler, plate_logic]
+                Logic[Game Logic:<br/>pyramid1, tabletHandler,<br/>plateVisual]
+                KeySystem[Key System:<br/>keyplacment,<br/>keyplaceariser]
+                DoorSystem[Door System:<br/>doorcontroller,<br/>theend]
+                AudioScripts[Audio Scripts:<br/>objectsound,<br/>footsteps]
+                VisualFX[Visual FX:<br/>lightcontroller,<br/>xray]
+            end
+            
+            subgraph "Data Storage"
+                SO[Scriptable Objects]
+                JSON[JSON Save Files]
+                PP[PlayerPrefs]
+            end
+            
+            subgraph "Assets"
+                AudioClips[Audio Clips:<br/>footsteps, impacts,<br/>door sounds]
+                Lightmaps[Lightmap Textures:<br/>dark/bright variants]
+                Models[3D Models & Materials]
+            end
+        end
+        
+        subgraph "VR Hardware"
+            Headset[VR Headset Display]
+            Controllers[Hand Controllers]
+            Tracking[6DOF Tracking]
+            Speakers[Spatial Audio Output]
+        end
+    end
+
+    GameEngine --> Managers
+    GameEngine --> Handlers
+    GameEngine --> Logic
+    GameEngine --> KeySystem
+    GameEngine --> DoorSystem
+    
+    Managers --> SO
+    Logic --> JSON
+    Logic --> PP
+    
+    AudioEngine --> AudioScripts
+    AudioEngine --> DoorSystem
+    AudioScripts --> AudioClips
+    DoorSystem --> AudioClips
+    
+    VisualFX --> Lightmaps
+    Logic --> Models
+    
+    XRToolkit --> Controllers
+    XRToolkit --> Tracking
+    GameEngine --> Headset
+    AudioEngine --> Speakers
+    
+    Controllers -.->|Input| Handlers
+    Tracking -.->|Position Data| GameEngine
+                </div>
+            </div>
+            <div class="description">
+                <strong>Complete Deployment Architecture:</strong> The updated deployment diagram shows how all game systems run on Meta Quest 2. The Unity Engine manages game logic, puzzle mechanics, and the key assembly system. The Audio Engine handles 3D spatial audio through objectsound, footsteps, and door sounds. XR Toolkit manages VR interactions while visual effects control lighting. All data is stored locally using Unity's built-in systems.
+            </div>
+        </section>
+
+        <section id="patterns" class="patterns-section">
+            <h2>Design Patterns Used</h2>
+            <div class="pattern-grid">
+                <div class="pattern-card">
+                    <h3>Observer Pattern</h3>
+                    <p>Implemented through Unity Events (UnityAction) for decoupled communication.</p>
+                    <ul>
+                        <li>onCorrectPlacement (pyramidSlot)</li>
+                        <li>onTabletPlaced (slotHandler)</li>
+                        <li>onMassChanged (MassHandler)</li>
+                        <li>onItemDropped (plate_logic)</li>
+                    </ul>
+                </div>
+
+                <div class="pattern-card">
+                    <h3>Manager Pattern</h3>
+                    <p>Centralized control for each puzzle's state and completion logic.</p>
+                    <ul>
+                        <li>room1_Manager (Pyramid Puzzle)</li>
+                        <li>Room3_Manager (Cipher Puzzle)</li>
+                        <li>jigsaw_manager (Balance Puzzle)</li>
+                    </ul>
+                </div>
+
+                <div class="pattern-card">
+                    <h3>Component Pattern</h3>
+                    <p>Unity's GameObject-Component architecture for modular, reusable code.</p>
+                    <ul>
+                        <li>plateVisual (rendering)</li>
+                        <li>plate_logic (state)</li>
+                        <li>MassHandler (physics)</li>
+                        <li>Audio components created dynamically</li>
+                    </ul>
+                </div>
+
+                <div class="pattern-card">
+                    <h3>State Pattern</h3>
+                    <p>Boolean flags track component states to prevent invalid operations.</p>
+                    <ul>
+                        <li>isFilled (pyramidSlot)</li>
+                        <li>isPlaced (slotHandler)</li>
+                        <li>isLocked (tabletHandler)</li>
+                        <li>keyParts counter (keyplacment)</li>
+                        <li>start flag (doorcontroller)</li>
+                    </ul>
+                </div>
+
+                <div class="pattern-card">
+                    <h3>Strategy Pattern</h3>
+                    <p>Different validation strategies for each puzzle type.</p>
+                    <ul>
+                        <li>ID Matching (Pyramid & Cipher)</li>
+                        <li>Mass Balancing (Balance Puzzle)</li>
+                        <li>Tag Matching (Key Assembly)</li>
+                        <li>Collision Detection (Triggers)</li>
+                    </ul>
+                </div>
+
+                <div class="pattern-card">
+                    <h3>Coroutine Pattern</h3>
+                    <p>Unity coroutines for smooth animations and timed sequences.</p>
+                    <ul>
+                        <li>OpenDoor/CloseDoor (doorcontroller)</li>
+                        <li>OpenDoor (keyplacment)</li>
+                        <li>arise (keyplaceariser)</li>
+                        <li>AnimateSnap (tabletHandler)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="description" style="margin-top: 50px; border-left-color: var(--accent-red);">
+                <h3 style="color: var(--primary-gold); margin-bottom: 15px;">Key Architectural Decisions</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Event-Driven Architecture:</strong> Heavy use of UnityEvents enables loose coupling between puzzle components and managers, making the system highly modular and extensible.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Physics-Based Interactions:</strong> Leverages Unity's physics system (Rigidbody, Colliders) for natural VR object manipulation and collision detection.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Coroutine-Based Animation:</strong> Smooth, non-blocking animations for doors, keys, and objects using Unity coroutines with interpolated movement.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Tag-Based Identification:</strong> Uses Unity's tag system for quick object identification (Player, pyramidToken, Tablet, weight_object, left/right/head).
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Dynamic Audio System:</strong> Runtime AudioSource creation with spatial audio (spatialBlend = 1) for immersive 3D sound effects.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>No Database Required:</strong> Offline-first design using local storage (PlayerPrefs, JSON, Scriptable Objects) optimized for Meta Quest 2.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Modular Puzzle Design:</strong> Each puzzle is self-contained with its own manager and handlers, enabling independent development and testing.
+                    </li>
+                    <li style="padding: 8px 0; padding-left: 25px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary-gold);">▸</span>
+                        <strong>Progressive Challenge:</strong> Key assembly system creates a satisfying climax by unifying all three puzzle solutions into a dramatic escape sequence.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>Tomb of the Forgotten Architect • VR Escape Room Experience • December 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#D4AF37',
+                primaryTextColor: '#2C1810',
+                primaryBorderColor: '#8B2500',
+                lineColor: '#8B2500',
+                secondaryColor: '#E8D5B7',
+                tertiaryColor: '#F5ECD7',
+                fontSize: '16px',
+                fontFamily: 'Crimson Text, serif'
+            }
+        });
+
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
+</body>
+</html>
