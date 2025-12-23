@@ -18,7 +18,7 @@ public class plateVisual : MonoBehaviour
 
     private void Update()
     {
-        if(transform.position != targetPosition)
+        if (transform.position != targetPosition)
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * moveSpeed);
         }
@@ -36,7 +36,7 @@ public class plateVisual : MonoBehaviour
             float plateMass = massHandler_plate.GetCurrentMass();
             if (plateMass >= 5f)
             {
-                targetPosition = initialPosition + offsetVector+offsetVector;
+                targetPosition = initialPosition + offsetVector + offsetVector;
                 Debug.Log("Plate has enough mass.");
                 // Add further logic here for when the plate has enough mass
             }
@@ -58,13 +58,13 @@ public class plateVisual : MonoBehaviour
         if (!canMove) return;
         float plateMass = massHandler_plate.GetCurrentMass();
 
-        if (plateMass >= 5f )
+        if (plateMass >= 5f)
         {
             targetPosition = initialPosition + offsetVector + offsetVector;
             Debug.Log("Plate has enough mass.");
             // Add further logic here for when the plate has enough mass
         }
-        else if(plateMass >= 2.5f && plateMass <5f)
+        else if (plateMass >= 2.5f && plateMass < 5f)
         {
             targetPosition = initialPosition + offsetVector;
             Debug.Log("Plate has moderate mass.");
@@ -78,7 +78,7 @@ public class plateVisual : MonoBehaviour
 
     private void checkSurface()
     {
-        if(plateLogic.GetItemsOnPlate() > 0)
+        if (plateLogic.GetItemsOnPlate() > 0)
         {
             //transform.position = initialPosition;
             canMove = true;
