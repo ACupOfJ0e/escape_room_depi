@@ -32,6 +32,20 @@
 
 ---
 
+## 🎥 Live Demo
+
+<div align="center">
+
+[![Watch the Demo](https://img.youtube.com/vi/gdSh4rQNCFI/maxresdefault.jpg)](https://youtu.be/gdSh4rQNCFI)
+
+**[▶️ Watch Full Gameplay Demo on YouTube](https://youtu.be/gdSh4rQNCFI)**
+
+*Experience the immersive VR gameplay, puzzle mechanics, and atmospheric tomb environment in action!*
+
+</div>
+
+---
+
 ## 🎮 Gameplay
 
 <div align="center">
@@ -185,9 +199,9 @@ This project was created as a course graduation project by:
 
 | Developer | Role | Contributions |
 |-----------|------|---------------|
-| **Youssef Hatem** | Gameplay Programmer | Core puzzle systems |
-| **Mohamed Amr** | Lead Techincal Artist | Assets, audio systems |
-| **Shihab Rehan** | Lead Programmer | Core Vr and Gameplay systems |
+| **Youssef Hatem** | Game Designer | Core Puzzle Design, Documentation Author, UML Designer |
+| **Mohamed Amr** | Techincal Artist | Assets, Environments, audio systems |
+| **Shihab Rehan** | Developer | Core Puzzle Logic, physics interactions, architecture |
 
 </div>
 
