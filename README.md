@@ -4,8 +4,8 @@
 
 ### *An Immersive VR Escape Room Experience*
 
-[![Unity](https://img.shields.io/badge/Unity-2022.3+-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
-[![Meta Quest](https://img.shields.io/badge/Meta%20Quest%202-0467DF?style=for-the-badge&logo=meta&logoColor=white)](https://www.meta.com/quest/)
+[![Unity 6](https://img.shields.io/badge/Unity-6-black?logo=unity)](https://unity.com/)
+[![Meta Quest](https://img.shields.io/badge/Meta-Quest-0467DF?logo=meta)](https://www.meta.com/quest/)
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![XR Toolkit](https://img.shields.io/badge/XR%20Toolkit-000000?style=for-the-badge&logo=unity&logoColor=white)](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@latest)
 
