@@ -200,8 +200,8 @@ This project was created as a course graduation project by:
 | Developer | Role | Contributions |
 |-----------|------|---------------|
 | **Youssef Hatem** | Game Designer | Core Puzzle Design, Documentation Author, UML Designer |
-| **Mohamed Amr** | Techincal Artist | Assets, Environments, audio systems |
-| **Shihab Rehan** | Developer | Core Puzzle Logic, physics interactions, architecture |
+| **Mohamed Amr** | Techincal Artist | Assets, Environments, Audio Systems |
+| **Shihab Rehan** | Developer | Core Puzzle Logic, Physics/VR Interactions, Architecture |
 
 </div>
 
