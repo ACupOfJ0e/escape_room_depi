@@ -116,7 +116,7 @@ The documentation includes:
 
 ### 🏗️ Tech Stack
 
-- **Engine**: Unity 2022.3 LTS
+- **Engine**: Unity 6
 - **VR Platform**: Meta Quest 2 (Android/ARM64)
 - **VR Framework**: Unity XR Interaction Toolkit
 - **Language**: C# 
@@ -130,7 +130,7 @@ The documentation includes:
 
 ### Prerequisites
 
-- Unity 2022.3 LTS or newer
+- Unity 6 or newer
 - Meta Quest 2 headset
 - Meta Quest Link cable or Air Link setup
 - Git or GitHub Desktop
@@ -147,7 +147,7 @@ The documentation includes:
 2. **Open in Unity Hub**
    - Launch Unity Hub
    - Click "Add" and select the cloned project folder
-   - Open with Unity 2022.3 LTS
+   - Open with Unity 6
 
 3. **Configure XR Settings**
    - Navigate to `Edit > Project Settings > XR Plug-in Management`
